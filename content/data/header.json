@@ -78,6 +78,15 @@
                 }
             ],
             "labelStyle": "secondary"
+        },
+        {
+            "type": "Link",
+            "label": "Careers",
+            "altText": "Careers page",
+            "url": "/about me",
+            "icon": "arrowRight",
+            "iconPosition": "right",
+            "style": "secondary"
         }
     ],
     "secondaryLinks": [
