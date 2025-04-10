@@ -24,7 +24,7 @@ seo:
   metaDescription: You can add the excerpt and main keywords of your blog post here.
   socialImage: /images/abstract-feature1.svg
   type: Seo
-colors: bg-dark-fg-light
+colors: bg-light-fg-dark
 styles:
   self:
     flexDirection: col
