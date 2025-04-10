@@ -16,7 +16,7 @@ sections:
       - content/pages/blog/what-is-a-design-system.md
     showThumbnail: true
     showExcerpt: true
-    showDate: true
+    showDate: false
     showAuthor: false
     actions: []
     elementId: ''
