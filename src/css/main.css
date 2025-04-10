@@ -325,3 +325,7 @@
         }
     }
 }
+    img[src*="woulogo2.png"] {
+      width: 100px;
+      height: auto;
+}
