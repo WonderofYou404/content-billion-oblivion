@@ -38,7 +38,7 @@ sections:
       type: ImageBlock
     badge:
       label: Wonder of you
-      color: text-primary
+      color: text-dark
       type: Badge
     elementId: ''
     colors: bg-light-fg-dark
