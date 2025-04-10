@@ -86,7 +86,7 @@
             "url": "/about me",
             "icon": "chevronRight",
             "iconPosition": "right",
-            "style": "secondary",
+            "style": "primary",
             "showIcon": true
         }
     ],
