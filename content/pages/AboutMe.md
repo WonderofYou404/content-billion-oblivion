@@ -6,7 +6,7 @@ sections:
     title:
       type: TitleBlock
       text: About Me
-      color: text-light
+      color: text-primary
       styles:
         self:
           textAlign: center
