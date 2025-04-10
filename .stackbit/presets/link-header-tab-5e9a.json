@@ -1,0 +1,28 @@
+{
+    "model": "Link",
+    "srcType": "git",
+    "srcProjectId": "9a0364b9",
+    "presets": [
+        {
+            "label": "Header Tab",
+            "locale": null,
+            "metadata": {
+                "categories": [
+                    "Header"
+                ],
+                "canDelete": true
+            },
+            "data": {
+                "label": "Careers",
+                "altText": "Careers page",
+                "url": "/careers",
+                "showIcon": null,
+                "icon": "arrowRight",
+                "iconPosition": "right",
+                "style": "secondary",
+                "elementId": null
+            },
+            "thumbnail": "images/link-header-tab-5e9a.png"
+        }
+    ]
+}
