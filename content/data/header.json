@@ -4,9 +4,7 @@
         "altText": "Logo dark",
         "styles": {
             "self": {
-                "margin": [
-                    "mr-3"
-                ]
+                "margin": ["mr-3"]
             }
         },
         "type": "ImageBlock"
@@ -55,35 +53,26 @@
                 {
                     "type": "Link",
                     "label": "Dropdown item",
-                    "altText": "",
                     "url": "/",
-                    "showIcon": false,
                     "icon": "arrowRight",
                     "iconPosition": "right",
-                    "style": "secondary",
-                    "elementId": ""
+                    "style": "secondary"
                 },
                 {
                     "type": "Link",
                     "label": "Dropdown item",
-                    "altText": "",
                     "url": "/",
-                    "showIcon": false,
                     "icon": "arrowRight",
                     "iconPosition": "right",
-                    "style": "secondary",
-                    "elementId": ""
+                    "style": "secondary"
                 },
                 {
                     "type": "Link",
                     "label": "Dropdown item",
-                    "altText": "",
                     "url": "/",
-                    "showIcon": false,
                     "icon": "arrowRight",
                     "iconPosition": "right",
-                    "style": "secondary",
-                    "elementId": ""
+                    "style": "secondary"
                 }
             ],
             "labelStyle": "secondary"
@@ -112,4 +101,5 @@
     "colors": "bg-light-fg-dark",
     "type": "Header"
 }
+
 
