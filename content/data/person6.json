@@ -1,7 +1,7 @@
 {
     "type": "Person",
     "name": "Billy O",
-    "role": "Owene",
+    "role": "Owner",
     "image": {
         "url": "/images/avatar6.svg",
         "altText": "Harrison Tally",
