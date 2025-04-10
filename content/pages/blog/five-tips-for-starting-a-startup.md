@@ -1,7 +1,7 @@
 ---
 title: About Me
 slug: five-tips-for-starting-a-startup
-date: '2023-06-18'
+date: '2023-06-01'
 excerpt: >-
   Sit ratione eligendi et quis distinctio et maiores accusantium aut accusamus
   facere sit repellat quidem qui alias nostrum et earum enim. Cum quis sint eos
