@@ -1,16 +1,4 @@
 {
-    "logo": {
-        "altText": "Logo dark",
-        "styles": {
-            "self": {
-                "margin": [
-                    "mr-3"
-                ]
-            }
-        },
-        "type": "ImageBlock",
-        "url": "/images/woulogo2.png"
-    },
     "primaryLinks": [
         {
             "label": "Pricing",
