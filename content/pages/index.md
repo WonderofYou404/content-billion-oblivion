@@ -40,6 +40,7 @@ sections:
           padding:
             - pb-0
             - pt-0
+          borderRadius: xx-small
     badge:
       label: Wonder of you
       color: text-light
