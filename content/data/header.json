@@ -39,13 +39,13 @@
             "type": "Link"
         },
         {
-    "label": "About Me",
-    "altText": "About Me page",
-    "url": "/aboutme/",
-    "icon": "chevronRight",
-    "iconPosition": "right",
-    "style": "secondary",
-    "type": "Link"
+            "label": "About Me",
+            "altText": "About Me page",
+            "url": "/aboutme/",
+            "icon": "chevronRight",
+            "iconPosition": "right",
+            "style": "secondary",
+            "type": "Link"
         },
         {
             "type": "SubNav",
