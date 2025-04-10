@@ -39,7 +39,7 @@ sections:
         self:
           padding:
             - pb-1
-            - pt-1
+            - pt-0
     badge:
       label: Wonder of you
       color: text-light
