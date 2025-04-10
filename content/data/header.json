@@ -86,7 +86,8 @@
             "url": "/about me",
             "icon": "arrowRight",
             "iconPosition": "right",
-            "style": "secondary"
+            "style": "secondary",
+            "showIcon": true
         }
     ],
     "secondaryLinks": [
