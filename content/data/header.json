@@ -82,7 +82,7 @@
         {
             "type": "Link",
             "label": "About Me",
-            "altText": "Careers page",
+            "altText": "About Me",
             "url": "/about me",
             "icon": "arrowRight",
             "iconPosition": "right",
