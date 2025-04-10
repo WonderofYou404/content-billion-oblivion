@@ -58,7 +58,6 @@ sections:
       backgroundPosition: center
       backgroundRepeat: no-repeat
       opacity: 100
-      url: '/images/ChatGPT Image Apr 10, 2025, 04_29_03 PM.png'
   - type: FeaturedItemsSection
     title:
       text: Key Benefits
