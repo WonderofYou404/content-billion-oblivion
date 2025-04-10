@@ -325,10 +325,6 @@
         }
     }
 }
-    img[src*="woulogo2.png"] {
-      width: 100px;
-      height: auto;
-}
     @font-face {
   font-family: 'Glass';
   src: url('/fonts/glass.ttf') format('truetype');
@@ -337,6 +333,10 @@
 }
     span[data-testid="sb-outline-title"] {
   font-family: 'Glass', sans-serif;
+}
+    img[src="/images/woulogo2.png"][alt="Logo dark"] {
+  width: 100px;
+  height: auto;
 }
 
 
