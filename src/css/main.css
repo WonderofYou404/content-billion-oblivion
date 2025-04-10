@@ -329,3 +329,13 @@
       width: 100px;
       height: auto;
 }
+    @font-face {
+  font-family: 'Glass';
+  src: url('/fonts/glass.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'Glass', sans-serif;
+}
