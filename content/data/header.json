@@ -39,6 +39,16 @@
             "type": "Link"
         },
         {
+            "type": "Link",
+            "label": "About Me",
+            "altText": "About Me",
+            "url": "/about me",
+            "icon": "chevronRight",
+            "iconPosition": "right",
+            "style": "primary",
+            "showIcon": true
+        },
+        {
             "type": "SubNav",
             "label": "Dropdown",
             "altText": "Dropdown",
@@ -78,16 +88,6 @@
                 }
             ],
             "labelStyle": "secondary"
-        },
-        {
-            "type": "Link",
-            "label": "About Me",
-            "altText": "About Me",
-            "url": "/about me",
-            "icon": "chevronRight",
-            "iconPosition": "right",
-            "style": "primary",
-            "showIcon": true
         }
     ],
     "secondaryLinks": [
