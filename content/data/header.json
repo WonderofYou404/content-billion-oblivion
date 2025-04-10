@@ -4,7 +4,9 @@
         "altText": "Logo dark",
         "styles": {
             "self": {
-                "margin": ["mr-3"]
+                "margin": [
+                    "mr-3"
+                ]
             }
         },
         "type": "ImageBlock"
@@ -37,15 +39,6 @@
             "type": "Link"
         },
         {
-            "label": "About Me",
-            "altText": "About Me page",
-            "url": "/aboutme",
-            "icon": "chevronRight",
-            "iconPosition": "right",
-            "style": "secondary",
-            "type": "Link"
-        },
-        {
             "type": "SubNav",
             "label": "Dropdown",
             "altText": "Dropdown",
@@ -53,26 +46,35 @@
                 {
                     "type": "Link",
                     "label": "Dropdown item",
+                    "altText": "",
                     "url": "/",
+                    "showIcon": false,
                     "icon": "arrowRight",
                     "iconPosition": "right",
-                    "style": "secondary"
+                    "style": "secondary",
+                    "elementId": ""
                 },
                 {
                     "type": "Link",
                     "label": "Dropdown item",
+                    "altText": "",
                     "url": "/",
+                    "showIcon": false,
                     "icon": "arrowRight",
                     "iconPosition": "right",
-                    "style": "secondary"
+                    "style": "secondary",
+                    "elementId": ""
                 },
                 {
                     "type": "Link",
                     "label": "Dropdown item",
+                    "altText": "",
                     "url": "/",
+                    "showIcon": false,
                     "icon": "arrowRight",
                     "iconPosition": "right",
-                    "style": "secondary"
+                    "style": "secondary",
+                    "elementId": ""
                 }
             ],
             "labelStyle": "secondary"
@@ -101,5 +103,3 @@
     "colors": "bg-light-fg-dark",
     "type": "Header"
 }
-
-
