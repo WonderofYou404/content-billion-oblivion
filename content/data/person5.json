@@ -2,19 +2,6 @@
     "type": "Person",
     "name": "",
     "role": "",
-    "image": {
-        "url": "/images/avatar5.svg",
-        "altText": "Drake Garza",
-        "styles": {
-            "self": {
-                "borderRadius": "medium",
-                "margin": [
-                    "mb-8"
-                ]
-            }
-        },
-        "type": "ImageBlock"
-    },
     "colors": "bg-light-fg-dark",
     "elementId": null,
     "styles": {
