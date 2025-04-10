@@ -39,14 +39,13 @@
             "type": "Link"
         },
         {
-            "type": "Link",
-            "label": "About Me",
-            "altText": "About Me",
-            "url": "/aboutme/",
-            "icon": "chevronRight",
-            "iconPosition": "right",
-            "style": "primary",
-            "showIcon": true
+    "label": "About Me",
+    "altText": "About Me page",
+    "url": "/aboutme/",
+    "icon": "chevronRight",
+    "iconPosition": "right",
+    "style": "secondary",
+    "type": "Link"
         },
         {
             "type": "SubNav",
@@ -113,3 +112,4 @@
     "colors": "bg-light-fg-dark",
     "type": "Header"
 }
+
