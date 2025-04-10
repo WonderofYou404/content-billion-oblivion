@@ -42,7 +42,7 @@ sections:
             - pt-0
           borderRadius: none
           margin:
-            - mt-24
+            - mt-36
             - mb-20
     badge:
       label: Wonder of you
