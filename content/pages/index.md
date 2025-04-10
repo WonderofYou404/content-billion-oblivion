@@ -5,13 +5,12 @@ sections:
   - type: GenericSection
     title:
       text: Time to connect and elevate
-      color: text-dark
+      color: text-light
       type: TitleBlock
-    subtitle: Subtitle goes here
-    text: >
-      A Netlify Create website is a git repo that you own. Every code commit is
-      instantly reflected in the visual editor and since every visual edit is a
-      git commit, git workflows and collaboration just work.
+    subtitle: 'Welcome to the beginning '
+    text: |+
+      > Create your own reality
+
     actions:
       - label: Get started
         altText: ''
@@ -22,7 +21,7 @@ sections:
         style: secondary
         elementId: ''
         type: Button
-      - label: See Tutorials
+      - label: Learn More
         altText: ''
         url: /
         showIcon: true
@@ -32,16 +31,25 @@ sections:
         elementId: ''
         type: Link
     media:
-      url: /images/main-hero.svg
+      url: /images/wou.jpg
       altText: Unblock your team boost your time to production preview
       elementId: ''
       type: ImageBlock
+      styles:
+        self:
+          padding:
+            - pb-0
+            - pt-0
+          borderRadius: none
+          margin:
+            - mt-0
+            - mb-0
     badge:
       label: Wonder of you
-      color: text-primary
+      color: text-light
       type: Badge
     elementId: ''
-    colors: bg-light-fg-dark
+    colors: bg-dark-fg-light
     styles:
       self:
         alignItems: center
@@ -51,6 +59,13 @@ sections:
           - pl-16
           - pb-16
           - pr-16
+    backgroundImage:
+      type: BackgroundImage
+      altText: altText of the image
+      backgroundSize: auto
+      backgroundPosition: center
+      backgroundRepeat: no-repeat
+      opacity: 100
   - type: FeaturedItemsSection
     title:
       text: Key Benefits
