@@ -31,6 +31,7 @@ sections:
           - pb-16
           - pr-16
         justifyContent: center
+    subtitle: Wonder Of You
 slug: AboutMe
 isDraft: false
 seo:
