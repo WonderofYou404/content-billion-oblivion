@@ -3,7 +3,7 @@ type: PageLayout
 title: About Me
 sections: []
 slug: AboutMe
-isDraft: false
+isDraft: true
 seo:
   type: Seo
   metaTitle: Landing Page
