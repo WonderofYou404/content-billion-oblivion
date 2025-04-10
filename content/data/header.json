@@ -39,7 +39,7 @@
         {
             "label": "About Me",
             "altText": "About Me page",
-            "url": "/aboutme/",
+            "url": "/aboutme",
             "icon": "chevronRight",
             "iconPosition": "right",
             "style": "secondary",
