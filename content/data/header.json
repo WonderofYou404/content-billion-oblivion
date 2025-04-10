@@ -84,7 +84,7 @@
             "label": "About Me",
             "altText": "About Me",
             "url": "/about me",
-            "icon": "arrowRight",
+            "icon": "chevronRight",
             "iconPosition": "right",
             "style": "primary",
             "showIcon": true
