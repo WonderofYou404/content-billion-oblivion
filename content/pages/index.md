@@ -38,7 +38,7 @@ sections:
       styles:
         self:
           padding:
-            - pb-1
+            - pb-0
             - pt-0
     badge:
       label: Wonder of you
