@@ -37,13 +37,13 @@
             "type": "Link"
         },
         {
-    "label": "About Me",
-    "altText": "About Me page",
-    "url": "/about",
-    "icon": "arrowRight",
-    "iconPosition": "right",
-    "style": "secondary",
-    "type": "Link"
+            "label": "About Me",
+            "altText": "About Me page",
+            "url": "/about",
+            "icon": "arrowRight",
+            "iconPosition": "right",
+            "style": "secondary",
+            "type": "Link"
         },
         {
             "label": "Dropdown",
@@ -101,3 +101,4 @@
     "colors": "bg-light-fg-dark",
     "type": "Header"
 }
+
