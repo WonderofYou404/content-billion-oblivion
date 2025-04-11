@@ -58,6 +58,7 @@ sections:
           margin:
             - mt-0
             - mb-0
+          borderWidth: 0
     badge:
       label: Wonder of you
       color: text-light
