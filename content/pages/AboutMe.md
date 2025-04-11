@@ -2,6 +2,17 @@
 type: PageLayout
 title: About Me
 sections:
+  - type: DividerSection
+    title: Divider
+    elementId: ''
+    colors: bg-light-fg-dark
+    styles:
+      self:
+        padding:
+          - pt-2
+          - pl-3
+          - pb-2
+          - pr-3
   - type: FeaturedPostsSection
     title:
       type: TitleBlock
@@ -17,7 +28,7 @@ sections:
     showDate: false
     showAuthor: false
     actions: []
-    elementId: ''
+    elementId: aboutme-header
     variant: small-list
     colors: bg-dark-fg-light
     hoverEffect: shadow-plus-move-up
