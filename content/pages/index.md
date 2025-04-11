@@ -776,7 +776,7 @@ sections:
   - type: FeaturedPostsSection
     title:
       type: TitleBlock
-      text: Recent Post
+      text: Recent Thoughts
       color: text-dark
       styles:
         self:
