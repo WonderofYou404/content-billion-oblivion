@@ -8,326 +8,11 @@ html {
   font-size: 20px; /* default is 16px, this = 125% */
 }
 
-@layer base {
-    body {
-        @apply text-base;
-    }
-    h1,
-    .h1,
-    h2,
-    .h2,
-    h3,
-    .h3,
-    h4,
-    .h4,
-    h5,
-    h6 {
-        @apply break-words;
-        line-height: 1.2;
-    }
-}
-
-@layer components {
-    .sb-markdown {
-        @apply leading-relaxed;
-        a {
-            @apply underline transition duration-200 ease-in;
-        }
-        a:hover {
-            @apply text-primary;
-        }
-        b,
-        strong {
-            @apply font-bold;
-        }
-        em {
-            @apply italic;
-        }
-        * + * {
-            margin-top: 1.5em;
-        }
-        h1,
-        h2,
-        h3,
-        h4,
-        h5,
-        h6 {
-            margin-top: 3.5rem;
-            &:first-child {
-                margin-top: 0;
-            }
-        }
-        h1+h2,
-        h2+h3,
-        h3+h4,
-        h4+h5,
-        h5+h6 {
-            margin-top: 1.5rem;
-        }
-        ol {
-            @apply list-decimal;
-            padding-left: 1.25em;
-        }
-        ul {
-            @apply list-disc;
-            padding-left: 1.25em;
-        }
-        li > ul,
-        li > ol {
-            margin: 0;
-        }
-        li + li {
-            margin-top: 0.5rem;
-        }
-        blockquote {
-            @apply border-l-4 border-current;
-            font-size: 1.25em;
-            line-height: 1.4;
-            padding-left: 1.25em;
-            &:not(:first-child) {
-                margin-top: 2.5rem;
-            }
-            &:not(:last-child) {
-                margin-bottom: 2.5rem;
-            }
-        }
-        pre {
-            @apply border border-current overflow-x-auto leading-normal;
-            padding: 1.25em;
-        }
-        hr {
-            @apply bg-current border-0 h-px;
-            &:not(:first-child) {
-                margin-top: 2.5rem;
-            }
-            &:not(:last-child) {
-                margin-bottom: 2.5rem;
-            }
-        }
-        figcaption {
-            @apply leading-normal;
-            font-size: 0.875em;
-            margin: 0.5rem 0 0;
-        }
-        table {
-            @apply border border-current border-collapse text-left w-full;
-        }
-        caption {
-            @apply text-left;
-            font-size: 0.875em;
-            margin: 0 0 0.5rem;
-        }
-        th,
-        td {
-            @apply border-r border-b border-current;
-            padding: 0.5em;
-        }
-        th {
-            font-weight: bold;
-        }
-    }
-
-    .sb-component-button {
-        @apply inline-flex justify-center items-center text-center border transition duration-200 ease-in hover:-translate-y-1;
-    }
-
-    .sb-component-link {
-        @apply inline-flex justify-center items-center text-center transition duration-200 ease-linear;
-    }
-    .sb-component-link-primary {
-        @apply text-primary hover:underline;
-    }
-    .sb-component-link-secondary {
-        @apply text-current hover:text-primary;
-    }
-
-    option {
-        color: initial;
-    }
-
-    .sb-checkbox:checked + .sb-label:before {
-        content: '\2713';
-    }
-
-    .sb-image-strip-track {
-        min-width: 160rem;
-    }
-
-    .sb-image-strip-content {
-        min-width: 80rem;
-    }
-
-    .sb-carousel-dot {
-        @apply w-4 h-4 cursor-pointer;
-    }
-
-    .sb-carousel-tab-title {
-        @apply cursor-pointer opacity-40 max-w-xs;
-        display: -webkit-box;
-        line-height: 1.5;
-        max-height: 1.5em;
-        overflow-y: hidden;
-        text-overflow: ellipsis;
-        -webkit-line-clamp: 1;
-        -webkit-box-orient: vertical;
-    }
-    .sb-carousel-tab-title-active {
-        @apply opacity-100;
-    }
-
-    .bg-light-fg-dark,
-    .sb-card.bg-light-fg-dark {
-        @apply text-dark bg-light;
-        .sb-input,
-        .sb-select,
-        .sb-textarea {
-            @apply placeholder-dark/50;
-        }
-        .sb-component-button-primary {
-            @apply bg-primary border-primary text-light;
-        }
-        .sb-component-button-secondary {
-            @apply border-dark text-dark;
-        }
-    }
-
-    .bg-neutral-fg-dark,
-    .sb-card.bg-neutral-fg-dark {
-        @apply text-dark bg-neutral;
-        .sb-input,
-        .sb-select,
-        .sb-textarea {
-            @apply placeholder-dark/50;
-        }
-        .sb-component-button-primary {
-            @apply bg-primary border-primary text-light;
-        }
-        .sb-component-button-secondary {
-            @apply border-dark text-dark;
-        }
-    }
-
-    .bg-dark-fg-light,
-    .sb-card.bg-dark-fg-light {
-        @apply text-light bg-dark;
-        .sb-input,
-        .sb-select,
-        .sb-textarea {
-            @apply placeholder-light/50;
-        }
-        .sb-component-button-primary {
-            @apply bg-primary border-primary text-light;
-        }
-        .sb-component-button-secondary {
-            @apply border-light text-light;
-        }
-    }
-
-    .bg-neutralAlt-fg-dark {
-        @apply text-dark bg-neutralAlt;
-        .sb-component-button-primary {
-            @apply bg-primary border-primary text-light;
-        }
-        .sb-component-button-secondary {
-            @apply border-dark text-dark;
-        }
-    }
-}
-
-@layer utilities {
-    .underline-line-through {
-        text-decoration-line: underline line-through;
-    }
-    .sb-animate-slide-left {
-        animation-name: slideLeft;
-        animation-duration: var(--sb-slide-speed, 80s);
-        animation-timing-function: linear;
-        animation-iteration-count: infinite;
-    }
-    @keyframes slideLeft {
-        from {
-            transform: translate3d(0,0,0);
-        }
-        to {
-            transform: translate3d(-50%,0,0);
-        }
-    }
-    .sb-animate-slide-right {
-        animation-name: slideRight;
-        animation-duration: var(--sb-slide-speed, 80s);
-        animation-timing-function: linear;
-        animation-iteration-count: infinite;
-    }
-    @keyframes slideRight {
-        from {
-            transform: translate3d(-50%,0,0);
-        }
-        to {
-            transform: translate3d(0,0,0);
-        }
-    }
-}
-
-/* Font */
 @font-face {
-    font-family: 'Glass';
-    src: url('/fonts/glass.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'Glass';
+  src: url('/fonts/glass.ttf') format('truetype');
 }
 
-/* Subtitle font */
-span[data-testid="sb-outline-title"] {
-    font-family: 'Glass', sans-serif;
-}
-
-/* Logo */
-img[src="/images/woulogo2.png"][alt="Logo dark"] {
-    width: 100px;
-    height: auto;
-}
-
-/* Badge label styles */
-#home-header span[data-sb-field-path=".label"]:not(#home-button span):not(#home-learn span):not(.sb-component-button span) {
-    font-family: 'Glass', sans-serif;
-    @apply responsive-font;
-    line-height: 1;
-    white-space: nowrap;
-    display: inline-block;
-    text-shadow: 0 0 28px rgba(255, 255, 255, 0.8);
-}
-
-/* Mobile adjustments */
-@media screen and (max-width: 768px) {
-    body {
-        overflow-x: hidden;
-    }
-
-    .sb-section {
-        padding-left: 1rem;
-        padding-right: 1rem;
-    }
-
-    #home-header {
-        padding: 2rem 1rem;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        min-height: 100vh;
-        box-sizing: border-box;
-    }
-
-    #home-header span[data-sb-field-path=".label"] {
-        font-size: 32px !important;
-        white-space: normal !important;
-        text-align: center;
-        display: block;
-        padding: 1rem;
-        max-width: 100%;
-        box-sizing: border-box;
-    }
-}
 @font-face {
   font-family: 'Break';
   src: url('/fonts/Break.ttf') format('truetype');
@@ -342,74 +27,336 @@ img[src="/images/woulogo2.png"][alt="Logo dark"] {
   font-family: 'Pricedown';
   src: url('/fonts/Pricedown.otf') format('opentype');
 }
-    #home-header span[data-sb-field-path=".text"] {
-  font-family: 'Pricedown', sans-serif;
-  font-size: 2rem; /* optional */
+
+@layer base {
+  body {
+    @apply text-base;
+  }
+  h1,
+  .h1,
+  h2,
+  .h2,
+  h3,
+  .h3,
+  h4,
+  .h4,
+  h5,
+  h6 {
+    @apply break-words;
+    line-height: 1.2;
+  }
 }
-    #home-header p[data-sb-field-path=".subtitle"] {
+
+@layer components {
+  .sb-markdown {
+    @apply leading-relaxed;
+    a {
+      @apply underline transition duration-200 ease-in;
+    }
+    a:hover {
+      @apply text-primary;
+    }
+    b,
+    strong {
+      @apply font-bold;
+    }
+    em {
+      @apply italic;
+    }
+    * + * {
+      margin-top: 1.5em;
+    }
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      margin-top: 3.5rem;
+      &:first-child {
+        margin-top: 0;
+      }
+    }
+    h1+h2,
+    h2+h3,
+    h3+h4,
+    h4+h5,
+    h5+h6 {
+      margin-top: 1.5rem;
+    }
+    ol {
+      @apply list-decimal;
+      padding-left: 1.25em;
+    }
+    ul {
+      @apply list-disc;
+      padding-left: 1.25em;
+    }
+    li > ul,
+    li > ol {
+      margin: 0;
+    }
+    li + li {
+      margin-top: 0.5rem;
+    }
+    blockquote {
+      @apply border-l-4 border-current;
+      font-size: 1.25em;
+      line-height: 1.4;
+      padding-left: 1.25em;
+      &:not(:first-child) {
+        margin-top: 2.5rem;
+      }
+      &:not(:last-child) {
+        margin-bottom: 2.5rem;
+      }
+    }
+    pre {
+      @apply border border-current overflow-x-auto leading-normal;
+      padding: 1.25em;
+    }
+    hr {
+      @apply bg-current border-0 h-px;
+      &:not(:first-child) {
+        margin-top: 2.5rem;
+      }
+      &:not(:last-child) {
+        margin-bottom: 2.5rem;
+      }
+    }
+    figcaption {
+      @apply leading-normal;
+      font-size: 0.875em;
+      margin: 0.5rem 0 0;
+    }
+    table {
+      @apply border border-current border-collapse text-left w-full;
+    }
+    caption {
+      @apply text-left;
+      font-size: 0.875em;
+      margin: 0 0 0.5rem;
+    }
+    th,
+    td {
+      @apply border-r border-b border-current;
+      padding: 0.5em;
+    }
+    th {
+      font-weight: bold;
+    }
+  }
+
+  .sb-component-button {
+    @apply inline-flex justify-center items-center text-center border transition duration-200 ease-in hover:-translate-y-1;
+  }
+
+  .sb-component-link {
+    @apply inline-flex justify-center items-center text-center transition duration-200 ease-linear;
+  }
+  .sb-component-link-primary {
+    @apply text-primary hover:underline;
+  }
+  .sb-component-link-secondary {
+    @apply text-current hover:text-primary;
+  }
+
+  option {
+    color: initial;
+  }
+
+  .sb-checkbox:checked + .sb-label:before {
+    content: '\2713';
+  }
+
+  .sb-image-strip-track {
+    min-width: 160rem;
+  }
+
+  .sb-image-strip-content {
+    min-width: 80rem;
+  }
+
+  .sb-carousel-dot {
+    @apply w-4 h-4 cursor-pointer;
+  }
+
+  .sb-carousel-tab-title {
+    @apply cursor-pointer opacity-40 max-w-xs;
+    display: -webkit-box;
+    line-height: 1.5;
+    max-height: 1.5em;
+    overflow-y: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+  }
+  .sb-carousel-tab-title-active {
+    @apply opacity-100;
+  }
+
+  .bg-light-fg-dark,
+  .sb-card.bg-light-fg-dark {
+    @apply text-dark bg-light;
+    .sb-input,
+    .sb-select,
+    .sb-textarea {
+      @apply placeholder-dark/50;
+    }
+    .sb-component-button-primary {
+      @apply bg-primary border-primary text-light;
+    }
+    .sb-component-button-secondary {
+      @apply border-dark text-dark;
+    }
+  }
+
+  .bg-neutral-fg-dark,
+  .sb-card.bg-neutral-fg-dark {
+    @apply text-dark bg-neutral;
+    .sb-input,
+    .sb-select,
+    .sb-textarea {
+      @apply placeholder-dark/50;
+    }
+    .sb-component-button-primary {
+      @apply bg-primary border-primary text-light;
+    }
+    .sb-component-button-secondary {
+      @apply border-dark text-dark;
+    }
+  }
+
+  .bg-dark-fg-light,
+  .sb-card.bg-dark-fg-light {
+    @apply text-light bg-dark;
+    .sb-input,
+    .sb-select,
+    .sb-textarea {
+      @apply placeholder-light/50;
+    }
+    .sb-component-button-primary {
+      @apply bg-primary border-primary text-light;
+    }
+    .sb-component-button-secondary {
+      @apply border-light text-light;
+    }
+  }
+
+  .bg-neutralAlt-fg-dark {
+    @apply text-dark bg-neutralAlt;
+    .sb-component-button-primary {
+      @apply bg-primary border-primary text-light;
+    }
+    .sb-component-button-secondary {
+      @apply border-dark text-dark;
+    }
+  }
+}
+
+@layer utilities {
+  .underline-line-through {
+    text-decoration-line: underline line-through;
+  }
+  .sb-animate-slide-left {
+    animation-name: slideLeft;
+    animation-duration: var(--sb-slide-speed, 80s);
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+  }
+  @keyframes slideLeft {
+    from {
+      transform: translate3d(0,0,0);
+    }
+    to {
+      transform: translate3d(-50%,0,0);
+    }
+  }
+  .sb-animate-slide-right {
+    animation-name: slideRight;
+    animation-duration: var(--sb-slide-speed, 80s);
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+  }
+  @keyframes slideRight {
+    from {
+      transform: translate3d(-50%,0,0);
+    }
+    to {
+      transform: translate3d(0,0,0);
+    }
+  }
+}
+
+/* Custom Fonts & Visual Adjustments */
+span[data-testid="sb-outline-title"] {
+  font-family: 'Glass', sans-serif;
+}
+
+img[src="/images/woulogo2.png"][alt="Logo dark"] {
+  width: 100px;
+  height: auto;
+}
+
+#home-header span[data-sb-field-path=".label"]:not(#home-button span):not(#home-learn span):not(.sb-component-button span) {
+  font-family: 'Glass', sans-serif;
+  font-size: 2.5rem;
+  line-height: 1;
+  white-space: nowrap;
+  display: inline-block;
+  text-shadow: 0 0 28px rgba(255, 255, 255, 0.8);
+}
+
+#home-header span[data-sb-field-path=".text"] {
+  font-family: 'Pricedown', sans-serif;
+  font-size: 2rem;
+}
+
+#home-header p[data-sb-field-path=".subtitle"] {
   font-family: 'LeagueGothic', sans-serif;
 }
+
+#home-button,
+#home-learn {
+  font-family: 'Pricedown', sans-serif;
+}
+
+/* Mobile Fixes */
 @media screen and (max-width: 768px) {
+  html {
+    font-size: 20px;
+  }
+
+  body {
+    font-size: 1.125rem;
+    overflow-x: hidden;
+  }
+
+  .sb-section {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .sb-component-button {
+    font-size: 1rem;
+    padding: 0.75rem 1.5rem;
+  }
+
   #home-header {
+    @apply bg-dark-fg-light;
+    padding: 2rem 1rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    padding: 1rem;
     text-align: center;
     box-sizing: border-box;
   }
 
-  #home-header .sb-component-header .sb-component-header-title span[data-sb-field-path=".label"] {
-    font-size: 0;
-    line-height: 0;
-    position: relative;
-    display: block;
-  }
-
-  #home-header .sb-component-header .sb-component-header-title span[data-sb-field-path=".label"]::after {
-    content: "Wonder\Aof\AYou";
-    font-family: 'Glass', sans-serif;
-    font-size: 36px;
-    white-space: pre-line;
-    display: block;
-    text-align: center;
-    line-height: 1.2;
-  }
-}
-.responsive-font {
-  font-size: 1.25rem; /* Mobile: ~20px */
-}
-
-@media screen and (min-width: 640px) {
-  .responsive-font {
-    font-size: 1.75rem; /* Small screens: ~28px */
-  }
-}
-
-@media screen and (min-width: 1024px) {
-  .responsive-font {
-    font-size: 2.5rem; /* Desktop: ~40px */
-  }
-}
-@media screen and (max-width: 768px) {
-  body {
-    font-size: 1.125rem; /* ~18px base */
-  }
-
-  .sb-component-button {
-    font-size: 1rem; /* ~16px for button text */
-    padding: 0.75rem 1.5rem;
-  }
-
-  .responsive-font {
-    font-size: 1.5rem;
-  }
-}
-@media screen and (max-width: 768px) {
   #home-header .sb-component-header-title span[data-sb-field-path=".label"] {
     font-size: 0 !important;
+    line-height: 0 !important;
     position: relative;
     display: block;
   }
@@ -417,22 +364,31 @@ img[src="/images/woulogo2.png"][alt="Logo dark"] {
   #home-header .sb-component-header-title span[data-sb-field-path=".label"]::after {
     content: "Wonder\Aof\AYou";
     font-family: 'Glass', sans-serif;
-    font-size: 32px;
+    font-size: 48px;
     white-space: pre-line;
     line-height: 1.2;
     display: block;
     text-align: center;
   }
-#home-header p[data-sb-field-path=".subtitle"] {
-    font-size: 24px; /* MO: Bigger subtitle */
+
+  #home-header p[data-sb-field-path=".subtitle"] {
+    font-size: 28px !important;
+    line-height: 1.4;
   }
 }
 
+.responsive-font {
+  font-size: 1.25rem;
+}
 
+@media screen and (min-width: 640px) {
+  .responsive-font {
+    font-size: 1.75rem;
+  }
+}
 
-
-
-
-
-
-
+@media screen and (min-width: 1024px) {
+  .responsive-font {
+    font-size: 2.5rem;
+  }
+}
