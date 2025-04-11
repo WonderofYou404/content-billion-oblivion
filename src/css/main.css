@@ -346,6 +346,17 @@ img[src="/images/woulogo2.png"][alt="Logo dark"] {
   font-family: 'LeagueGothic', sans-serif;
 }
 @media screen and (max-width: 768px) {
+  #home-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 1rem;
+    text-align: center;
+    box-sizing: border-box;
+  }
+
   #home-header .sb-component-header .sb-component-header-title span[data-sb-field-path=".label"] {
     font-size: 0;
     line-height: 0;
@@ -356,15 +367,13 @@ img[src="/images/woulogo2.png"][alt="Logo dark"] {
   #home-header .sb-component-header .sb-component-header-title span[data-sb-field-path=".label"]::after {
     content: "Wonder\Aof\AYou";
     font-family: 'Glass', sans-serif;
-    font-size: 32px;
+    font-size: 36px;
     white-space: pre-line;
     display: block;
     text-align: center;
     line-height: 1.2;
-    position: static;
   }
 }
-
 .responsive-font {
   font-size: 1.25rem; /* Mobile: ~20px */
 }
@@ -378,6 +387,20 @@ img[src="/images/woulogo2.png"][alt="Logo dark"] {
 @media screen and (min-width: 1024px) {
   .responsive-font {
     font-size: 2.5rem; /* Desktop: ~40px */
+  }
+}
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 1.125rem; /* ~18px base */
+  }
+
+  .sb-component-button {
+    font-size: 1rem; /* ~16px for button text */
+    padding: 0.75rem 1.5rem;
+  }
+
+  .responsive-font {
+    font-size: 1.5rem;
   }
 }
 
