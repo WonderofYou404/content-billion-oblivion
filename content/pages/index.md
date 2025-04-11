@@ -91,7 +91,7 @@ sections:
     showDate: true
     showAuthor: true
     actions: []
-    elementId: ''
+    elementId: home-fpost
     variant: three-col-grid
     colors: bg-light-fg-dark
     hoverEffect: move-up
