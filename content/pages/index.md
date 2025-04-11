@@ -67,7 +67,7 @@ sections:
           - pr-20
         margin:
           - mt-0
-          - ml-7
+          - ml-0
           - mb-10
           - mr-7
         justifyContent: center
