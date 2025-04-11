@@ -61,10 +61,10 @@ sections:
         alignItems: center
         flexDirection: row
         padding:
-          - pt-28
-          - pl-28
-          - pb-28
-          - pr-28
+          - pt-36
+          - pl-36
+          - pb-36
+          - pr-36
         margin:
           - mt-10
           - ml-20
