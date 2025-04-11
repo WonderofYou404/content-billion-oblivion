@@ -352,6 +352,19 @@
     padding-right: 1rem;
   }
 }
+    body {
+  overflow-x: hidden;
+}
+@media screen and (max-width: 768px) {
+  #home-header span[data-sb-field-path=".label"] {
+    font-size: 32px; /* or whatever size looks balanced */
+    white-space: normal;
+    text-align: center;
+    display: block;
+    padding: 0 1rem;
+  }
+}
+
 
 
 
