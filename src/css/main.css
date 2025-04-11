@@ -286,7 +286,7 @@ img[src="/images/woulogo2.png"][alt="Logo dark"] {
 /* Badge label styles */
 #home-header span[data-sb-field-path=".label"]:not(#home-button span):not(#home-learn span):not(.sb-component-button span) {
     font-family: 'Glass', sans-serif;
-    font-size: 64px;
+    @apply responsive-font;
     line-height: 1;
     white-space: nowrap;
     display: inline-block;
