@@ -18,9 +18,12 @@ sections:
     type: DividerSection
   - type: GenericSection
     title:
-      text: Time to connect and elevate
+      text: "Time to connect\_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ and elevate"
       color: text-primary
       type: TitleBlock
+      styles:
+        self:
+          textAlign: left
     subtitle: 'Welcome to the beginning '
     text: |+
       > Create your own reality
@@ -48,6 +51,9 @@ sections:
       label: Wonder of you
       color: text-light
       type: Badge
+      styles:
+        self:
+          textAlign: left
     elementId: home-header
     colors: bg-dark-fg-light
     styles:
