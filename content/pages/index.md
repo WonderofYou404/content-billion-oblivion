@@ -53,7 +53,7 @@ sections:
       type: Badge
       styles:
         self:
-          textAlign: left
+          textAlign: center
     elementId: home-header
     colors: bg-dark-fg-light
     styles:
