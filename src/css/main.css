@@ -340,7 +340,7 @@
 }
     #home-header span[data-sb-field-path=".label"]:not(#home-button span):not(#home-learn span):not(.sb-component-button span) {
   font-family: 'Glass', sans-serif;
-  font-size: 64px;
+  font-size: 58px;
   line-height: 1;
   white-space: nowrap;
   display: inline-block;
@@ -362,6 +362,8 @@
     text-align: center;
     display: block;
     padding: 0 1rem;
+    max-width: 100%;
+    box-sizing: border-box;
   }
 }
 
