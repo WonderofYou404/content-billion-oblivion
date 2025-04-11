@@ -24,7 +24,7 @@ sections:
       styles:
         self:
           textAlign: center
-    subtitle: The World Is Yours
+    subtitle: ''
     text: ''
     actions:
       - label: Get started
@@ -40,7 +40,7 @@ sections:
         altText: ''
         url: /
         showIcon: true
-        icon: arrowRight
+        icon: chevronBigRight
         iconPosition: right
         style: primary
         elementId: home-learn
@@ -91,7 +91,7 @@ sections:
     showDate: true
     showAuthor: true
     actions: []
-    elementId: ''
+    elementId: home-fpost
     variant: three-col-grid
     colors: bg-light-fg-dark
     hoverEffect: move-up
@@ -147,6 +147,7 @@ sections:
         self:
           textAlign: center
           fontWeight: 700
+    elementId: home-fpost2
   - type: FeaturedItemsSection
     title:
       text: ''
