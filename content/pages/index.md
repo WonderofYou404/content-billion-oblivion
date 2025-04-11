@@ -26,7 +26,9 @@ sections:
           textAlign: center
     subtitle: 'Welcome to the beginning '
     text: |+
-      > Create your own reality
+      ```
+      Create your own reality
+      ```
 
     actions:
       - label: Get started
