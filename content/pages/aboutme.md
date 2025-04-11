@@ -42,7 +42,7 @@ sections:
         justifyContent: center
       subtitle:
         textAlign: center
-    subtitle: Wonder Of You
+    subtitle: WOU
 slug: aboutme
 isDraft: false
 seo:
