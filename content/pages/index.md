@@ -125,7 +125,7 @@ sections:
           - pl-16
           - pb-16
           - pr-16
-        justifyContent: center
+        justifyContent: flex-start
       subtitle:
         fontStyle: italic
         fontWeight: 500
