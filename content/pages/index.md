@@ -118,6 +118,7 @@ sections:
       styles:
         self:
           fontStyle: italic
+          textAlign: center
   - type: FeaturedPostsSection
     title:
       type: TitleBlock
