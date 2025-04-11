@@ -8,7 +8,7 @@ sections:
       self:
         padding:
           - pt-3
-          - pl-2
+          - pl-1
           - pb-3
           - pr-2
         margin:
