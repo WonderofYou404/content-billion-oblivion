@@ -128,7 +128,7 @@ sections:
         justifyContent: center
       subtitle:
         fontStyle: italic
-        fontWeight: 400
+        fontWeight: 500
         textAlign: center
     type: FeaturedPostsSection
     hoverEffect: move-up
