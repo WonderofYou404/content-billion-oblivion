@@ -179,7 +179,7 @@ sections:
         type: Button
     badge:
       label: This is a badge
-      color: text-primary
+      color: text-dark
       styles:
         self:
           textAlign: center
