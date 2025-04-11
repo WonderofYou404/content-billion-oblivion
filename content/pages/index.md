@@ -128,7 +128,7 @@ sections:
         justifyContent: center
     type: FeaturedPostsSection
     hoverEffect: move-up
-    subtitle: Blogs available weekly on many subject by certified WOU™ Authors
+    subtitle: Blogs available weekly on many topics by certified WOU™ Authors
   - type: FeaturedItemsSection
     title:
       text: ''
