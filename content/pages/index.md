@@ -147,7 +147,7 @@ sections:
       opacity: 100
     title:
       type: TitleBlock
-      text: Recent Wonders
+      text: What's New
       color: text-dark
       styles:
         self:
