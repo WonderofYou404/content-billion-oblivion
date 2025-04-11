@@ -14,6 +14,7 @@ sections:
         margin:
           - mt-0
           - mr-5
+          - ml-5
     type: DividerSection
   - type: GenericSection
     title:
