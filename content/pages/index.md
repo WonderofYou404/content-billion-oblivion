@@ -149,6 +149,7 @@ sections:
           - pb-16
           - pr-16
         justifyContent: center
+    subtitle: Blogs available weekly on many topics by certified WOU™ Authors
   - type: FeaturedItemsSection
     title:
       text: ''
