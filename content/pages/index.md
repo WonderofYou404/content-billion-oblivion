@@ -117,7 +117,6 @@ sections:
       color: text-dark
       styles:
         self:
-          fontStyle: italic
           textAlign: center
           fontWeight: 700
   - type: FeaturedPostsSection
