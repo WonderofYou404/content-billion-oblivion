@@ -24,10 +24,8 @@ sections:
       styles:
         self:
           textAlign: center
-    subtitle: 'Welcome to the beginning '
-    text: |+
-      > Create your own reality
-
+    subtitle: The World Is Yours
+    text: ''
     actions:
       - label: Get started
         altText: ''
@@ -61,10 +59,10 @@ sections:
         alignItems: center
         flexDirection: row
         padding:
-          - pt-20
-          - pl-20
-          - pb-20
-          - pr-20
+          - pt-10
+          - pl-10
+          - pb-10
+          - pr-10
         margin:
           - mt-0
           - ml-0

@@ -6,7 +6,8 @@
             "icon": "arrowRight",
             "iconPosition": "right",
             "style": "secondary",
-            "type": "Link"
+            "type": "Link",
+            "elementId": "header-pricing"
         },
         {
             "label": "Blog",
@@ -15,7 +16,8 @@
             "icon": "arrowRight",
             "iconPosition": "right",
             "style": "secondary",
-            "type": "Link"
+            "type": "Link",
+            "elementId": "header-blog"
         },
         {
             "label": "Careers",
@@ -24,7 +26,8 @@
             "icon": "arrowRight",
             "iconPosition": "right",
             "style": "secondary",
-            "type": "Link"
+            "type": "Link",
+            "elementId": "header-careers"
         },
         {
             "label": "About Me",
@@ -33,7 +36,8 @@
             "icon": "chevronRight",
             "iconPosition": "right",
             "style": "secondary",
-            "type": "Link"
+            "type": "Link",
+            "elementId": "header-aboutme"
         },
         {
             "type": "SubNav",
