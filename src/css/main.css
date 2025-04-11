@@ -338,7 +338,7 @@
   width: 100px;
   height: auto;
 }
-    #home-header span[data-sb-field-path=".label"]:not(button span) {
+    #home-header span[data-sb-field-path=".label"]:not(#home-button span):not(.sb-component-button span) {
   font-family: 'Glass', sans-serif;
   font-size: 64px;
   padding: 0.1em 0.25em;
@@ -349,8 +349,8 @@
   text-shadow: 0 0 10px rgba(255, 255, 255, 0.6); /* soft white glow */
 }
     #home-image {
-  width: 100%;
-  max-width: 400px;
+  width: 75%;
+  max-width: 250px;
   float: right;
   margin-left: 2rem;
   margin-top: 1rem;
