@@ -362,14 +362,14 @@ img[src="/images/woulogo2.png"][alt="Logo dark"] {
   }
 
  @media screen and (max-width: 768px) {
-  #home-header span[data-sb-field-path=".label"] {
+  #home-header span[data-sb-field-path=".label"]:not(#home-button span):not(#home-learn span):not(.sb-component-button span) {
     font-size: 0 !important;
     line-height: 0 !important;
     display: block;
     position: relative;
   }
 
-  #home-header span[data-sb-field-path=".label"]::after {
+  #home-header span[data-sb-field-path=".label"]:not(#home-button span):not(#home-learn span):not(.sb-component-button span)::after {
     content: "Wonder\Aof\AYou";
     white-space: pre-line;
     font-family: 'Glass', sans-serif;
@@ -379,6 +379,8 @@ img[src="/images/woulogo2.png"][alt="Logo dark"] {
     text-align: center;
   }
 }
+
+
 
   #home-header p[data-sb-field-path=".subtitle"] {
     font-size: 28px !important;
