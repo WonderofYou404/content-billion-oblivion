@@ -370,10 +370,10 @@ img[src="/images/woulogo2.png"][alt="Logo dark"] {
   }
 
   #home-header span[data-sb-field-path=".label"]::after {
-    content: "Wonder\\Aof\\AYou";
+    content: "Wonder\Aof\AYou";
+    white-space: pre-line;
     font-family: 'Glass', sans-serif;
     font-size: 48px;
-    white-space: pre-line;
     line-height: 1.2;
     display: block;
     text-align: center;
