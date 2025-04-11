@@ -66,10 +66,10 @@ sections:
           - pb-44
           - pr-44
         margin:
-          - mt-10
-          - ml-10
-          - mb-10
-          - mr-10
+          - mt-20
+          - ml-20
+          - mb-20
+          - mr-20
       subtitle:
         textAlign: center
       text:
