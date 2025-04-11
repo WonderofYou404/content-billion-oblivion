@@ -99,7 +99,8 @@
             "self": {
                 "borderRadius": "medium",
                 "padding": [
-                    "pl-32"
+                    "pl-32",
+                    "pr-14"
                 ]
             }
         }
