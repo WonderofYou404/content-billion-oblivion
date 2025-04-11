@@ -74,7 +74,7 @@ sections:
       subtitle:
         textAlign: center
       text:
-        textAlign: left
+        textAlign: center
   - type: FeaturedPostsSection
     title:
       type: TitleBlock
