@@ -65,14 +65,6 @@ sections:
           - pl-64
           - pb-64
           - pr-64
-    backgroundImage:
-      type: BackgroundImage
-      altText: altText of the image
-      backgroundSize: auto
-      backgroundPosition: center
-      backgroundRepeat: no-repeat
-      opacity: 100
-      url: /images/wou.jpg
   - type: FeaturedPostsSection
     title:
       type: TitleBlock
