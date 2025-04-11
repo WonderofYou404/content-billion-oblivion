@@ -324,6 +324,25 @@ img[src="/images/woulogo2.png"][alt="Logo dark"] {
         box-sizing: border-box;
     }
 }
+@font-face {
+  font-family: 'Break';
+  src: url('/fonts/Break.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'LeagueGothic';
+  src: url('/fonts/LeagueGothic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Pricedown';
+  src: url('/fonts/Pricedown.otf') format('opentype');
+}
+    #home-header span[data-sb-field-path=".text"] {
+  font-family: 'Pricedown', sans-serif;
+  font-size: 2rem; /* optional */
+}
+
 
 
 
