@@ -18,12 +18,12 @@ sections:
     type: DividerSection
   - type: GenericSection
     title:
-      text: "Time to connect\_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ and elevate"
+      text: Time to connect and elevate
       color: text-primary
       type: TitleBlock
       styles:
         self:
-          textAlign: left
+          textAlign: center
     subtitle: 'Welcome to the beginning '
     text: |+
       > Create your own reality
@@ -53,7 +53,7 @@ sections:
       type: Badge
       styles:
         self:
-          textAlign: left
+          textAlign: center
     elementId: home-header
     colors: bg-dark-fg-light
     styles:
@@ -61,18 +61,20 @@ sections:
         alignItems: center
         flexDirection: row
         padding:
-          - pt-64
-          - pl-64
-          - pb-64
-          - pr-64
-    backgroundImage:
-      type: BackgroundImage
-      altText: altText of the image
-      backgroundSize: auto
-      backgroundPosition: center
-      backgroundRepeat: no-repeat
-      opacity: 100
-      url: /images/wou.jpg
+          - pt-20
+          - pl-20
+          - pb-20
+          - pr-20
+        margin:
+          - mt-10
+          - ml-20
+          - mb-10
+          - mr-20
+        justifyContent: center
+      subtitle:
+        textAlign: center
+      text:
+        textAlign: left
   - type: FeaturedPostsSection
     title:
       type: TitleBlock
