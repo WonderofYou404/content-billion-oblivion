@@ -111,6 +111,10 @@ sections:
       backgroundPosition: center
       backgroundRepeat: no-repeat
       opacity: 100
+    title:
+      type: TitleBlock
+      text: This Is A Big Headline
+      color: text-dark
   - type: FeaturedPostsSection
     title:
       type: TitleBlock
