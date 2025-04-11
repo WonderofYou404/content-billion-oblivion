@@ -48,6 +48,9 @@ sections:
       label: Wonder of you
       color: text-light
       type: Badge
+      styles:
+        self:
+          textAlign: left
     elementId: home-header
     colors: bg-dark-fg-light
     styles:
