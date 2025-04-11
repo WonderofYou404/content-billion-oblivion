@@ -67,7 +67,7 @@ sections:
           - pr-20
         margin:
           - mt-10
-          - ml-6
+          - ml-20
           - mb-10
           - mr-10
       subtitle:
