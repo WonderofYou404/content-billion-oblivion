@@ -113,7 +113,7 @@ sections:
       opacity: 100
     title:
       type: TitleBlock
-      text: Blogs available weekly on many topics by certified WOU™ Authors
+      text: Recent Wonders
       color: text-dark
   - type: FeaturedPostsSection
     title:
