@@ -81,7 +81,7 @@ styles:
       - pr-5
     textAlign: center
     borderColor: border-light
-    borderStyle: none
+    borderStyle: solid
     borderWidth: 0
     borderRadius: medium
     flexDirection: row
