@@ -61,10 +61,10 @@ sections:
         alignItems: center
         flexDirection: row
         padding:
-          - pt-64
+          - pt-44
           - pl-44
-          - pb-64
-          - pr-64
+          - pb-44
+          - pr-44
       subtitle:
         textAlign: center
       text:
