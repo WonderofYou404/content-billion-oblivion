@@ -9,7 +9,7 @@ sections:
         padding:
           - pt-2
           - pl-7
-          - pb-7
+          - pb-2
           - pr-7
     type: DividerSection
   - type: GenericSection
