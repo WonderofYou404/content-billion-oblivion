@@ -84,7 +84,7 @@ sections:
     title:
       type: TitleBlock
       text: Recent Thoughts
-      color: text-neutral
+      color: text-primary
       styles:
         self:
           textAlign: center
