@@ -126,6 +126,8 @@ sections:
           - pb-16
           - pr-16
         justifyContent: center
+      subtitle:
+        fontStyle: italic
     type: FeaturedPostsSection
     hoverEffect: move-up
     subtitle: Blogs available weekly on many topics by certified WOU™ Authors
