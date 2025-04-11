@@ -65,6 +65,8 @@ sections:
           - pl-64
           - pb-64
           - pr-64
+      subtitle:
+        textAlign: center
   - type: FeaturedPostsSection
     title:
       type: TitleBlock
