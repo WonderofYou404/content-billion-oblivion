@@ -30,7 +30,7 @@ sections:
     actions: []
     elementId: aboutme-header
     variant: small-list
-    colors: bg-dark-fg-light
+    colors: bg-light-fg-dark
     hoverEffect: shadow-plus-move-up
     styles:
       self:
@@ -40,6 +40,8 @@ sections:
           - pb-16
           - pr-16
         justifyContent: center
+      subtitle:
+        textAlign: center
     subtitle: Wonder Of You
 slug: AboutMe
 isDraft: false

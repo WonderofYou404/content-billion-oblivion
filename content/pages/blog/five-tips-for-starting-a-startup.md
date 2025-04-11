@@ -9,7 +9,7 @@ excerpt: >-
   genuine, sustainable path. After years of research, I’ve boiled it down to a
   simple truth: the key to creating a scalable income is creation.
 featuredImage:
-  url: '/images/ChatGPT Image Apr 10, 2025, 04_29_03 PM.png'
+  url: /images/W O U-01.png
   altText: Thumbnail
   type: ImageBlock
   styles:
