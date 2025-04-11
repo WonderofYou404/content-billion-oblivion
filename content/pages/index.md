@@ -9,7 +9,7 @@ sections:
         padding:
           - pt-3
           - pl-2
-          - pb-2
+          - pb-3
           - pr-2
         margin:
           - mt-0
