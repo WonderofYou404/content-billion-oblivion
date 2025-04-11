@@ -69,7 +69,7 @@ sections:
           - mt-10
           - ml-36
           - mb-10
-          - mr-36
+          - mr-4
         justifyContent: center
       subtitle:
         textAlign: center
