@@ -151,6 +151,7 @@ sections:
         justifyContent: center
       subtitle:
         fontStyle: italic
+        fontWeight: 500
     subtitle: Blogs available weekly on many topics by certified WOU™ Authors
   - type: FeaturedItemsSection
     title:
