@@ -11,7 +11,7 @@ sections:
         padding:
           - pt-11
           - pl-3
-          - pb-5
+          - pb-11
           - pr-3
   - type: FeaturedPostsSection
     title:
