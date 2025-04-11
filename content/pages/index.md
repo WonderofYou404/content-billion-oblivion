@@ -69,7 +69,7 @@ sections:
           - mt-0
           - ml-0
           - mb-0
-          - mr-7
+          - mr-0
         justifyContent: center
       subtitle:
         textAlign: center
