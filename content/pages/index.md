@@ -24,7 +24,7 @@ sections:
       styles:
         self:
           textAlign: center
-    subtitle: The World Is Yours
+    subtitle: ''
     text: ''
     actions:
       - label: Get started
