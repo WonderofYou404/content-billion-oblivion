@@ -119,6 +119,7 @@ sections:
         self:
           fontStyle: italic
           textAlign: center
+          fontWeight: 500
   - type: FeaturedPostsSection
     title:
       type: TitleBlock
