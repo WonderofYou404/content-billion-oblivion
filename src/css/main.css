@@ -344,7 +344,6 @@ img[src="/images/woulogo2.png"][alt="Logo dark"] {
 }
     #home-header p[data-sb-field-path=".subtitle"] {
   font-family: 'LeagueGothic', sans-serif;
-  font-size: 1.25rem; /* or 36px */
 }
 @media screen and (max-width: 768px) {
   #home-header span[data-sb-field-path=".label"] {
@@ -362,6 +361,21 @@ img[src="/images/woulogo2.png"][alt="Logo dark"] {
     line-height: 1.2;
     white-space: pre-line;
     display: block;
+  }
+}
+.responsive-font {
+  font-size: 1.25rem; /* Mobile: ~20px */
+}
+
+@media screen and (min-width: 640px) {
+  .responsive-font {
+    font-size: 1.75rem; /* Small screens: ~28px */
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .responsive-font {
+    font-size: 2.5rem; /* Desktop: ~40px */
   }
 }
 
