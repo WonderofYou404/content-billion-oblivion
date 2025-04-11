@@ -70,6 +70,7 @@ sections:
           - ml-20
           - mb-10
           - mr-20
+        justifyContent: center
       subtitle:
         textAlign: center
       text:
