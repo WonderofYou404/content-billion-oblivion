@@ -147,6 +147,7 @@ sections:
         self:
           textAlign: center
           fontWeight: 700
+    elementId: home-fpost2
   - type: FeaturedItemsSection
     title:
       text: ''
