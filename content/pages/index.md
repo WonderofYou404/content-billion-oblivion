@@ -40,7 +40,7 @@ sections:
         altText: ''
         url: /
         showIcon: true
-        icon: arrowRight
+        icon: chevronBigRight
         iconPosition: right
         style: primary
         elementId: home-learn
