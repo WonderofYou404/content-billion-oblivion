@@ -347,12 +347,10 @@ img[src="/images/woulogo2.png"][alt="Logo dark"] {
 }
 @media screen and (max-width: 768px) {
   #home-header span[data-sb-field-path=".label"] {
-    display: block;
-    text-align: center;
-    white-space: pre-line;
-    font-size: 0;
+    font-size: 0 !important; /* hides original */
+    line-height: 0;
+    white-space: nowrap;
     position: relative;
-    padding: 1rem;
   }
 
   #home-header span[data-sb-field-path=".label"]::after {
@@ -363,9 +361,12 @@ img[src="/images/woulogo2.png"][alt="Logo dark"] {
     white-space: pre-line;
     display: block;
     text-align: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
   }
 }
-
 .responsive-font {
   font-size: 1.25rem; /* Mobile: ~20px */
 }
