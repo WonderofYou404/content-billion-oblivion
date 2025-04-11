@@ -1,5 +1,5 @@
 ---
-title: Case study 3
+title: My Watchlist
 slug: case-study-3
 date: '2021-11-18'
 excerpt: >-
@@ -8,8 +8,7 @@ excerpt: >-
   Etiam at cursus enim. Suspendisse sed augue tortor. Nunc eu magna vitae lorem
   pellentesque fermentum. Sed in facilisis dui.
 featuredImage:
-  url: >-
-    /images/img-placeholder.svg
+  url: /images/img-placeholder.svg
   altText: Case study 3
   styles:
     self:
@@ -76,12 +75,12 @@ colors: bg-light-fg-dark
 styles:
   self:
     padding:
-      - pt-5
-      - pl-5
-      - pb-5
-      - pr-5
+      - pt-0
+      - pl-0
+      - pb-0
+      - pr-0
     textAlign: center
-    borderColor: border-light
+    borderColor: border-dark
     borderStyle: none
     borderWidth: 0
     borderRadius: none

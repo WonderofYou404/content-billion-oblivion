@@ -92,15 +92,17 @@
     "type": "Header",
     "logo": {
         "type": "ImageBlock",
-        "url": "/images/wou finaltiny-01.png",
+        "url": "/images/WOU Final-01.png",
         "altText": "Image alt text placeholder",
         "elementId": "",
         "styles": {
             "self": {
                 "borderRadius": "medium",
                 "padding": [
-                    "pl-28",
-                    "pr-14"
+                    "pl-0",
+                    "pr-0",
+                    "pt-0",
+                    "pb-0"
                 ]
             }
         }

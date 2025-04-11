@@ -1,5 +1,5 @@
 ---
-title: Case study 1
+title: Recent Project
 slug: case-study-1
 date: '2022-01-05'
 excerpt: >-
@@ -15,16 +15,6 @@ featuredImage:
       borderRadius: large
   type: ImageBlock
 bottomSections:
-  - title: Divider
-    colors: bg-light-fg-dark
-    styles:
-      self:
-        padding:
-          - pt-7
-          - pl-7
-          - pb-7
-          - pr-7
-    type: DividerSection
   - items:
       - title: About Company
         tagline: This is the tagline
@@ -75,12 +65,12 @@ colors: bg-light-fg-dark
 styles:
   self:
     padding:
-      - pt-5
-      - pl-5
-      - pb-5
-      - pr-5
+      - pt-0
+      - pl-0
+      - pb-0
+      - pr-0
     textAlign: center
-    borderColor: border-light
+    borderColor: border-dark
     borderStyle: none
     borderWidth: 0
     borderRadius: none

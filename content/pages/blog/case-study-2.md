@@ -1,7 +1,7 @@
 ---
-title: Case study 2
+title: Catch Up On This Month
 slug: case-study-2
-date: '2022-02-16'
+date: '2025-04-10'
 excerpt: >-
   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ante lorem,
   tincidunt ac leo efficitur, feugiat tempor odio. Curabitur at auctor sapien.
@@ -75,10 +75,10 @@ colors: bg-light-fg-dark
 styles:
   self:
     padding:
-      - pt-5
-      - pl-5
-      - pb-5
-      - pr-5
+      - pt-0
+      - pl-0
+      - pb-0
+      - pr-0
     textAlign: center
     borderColor: border-light
     borderStyle: none

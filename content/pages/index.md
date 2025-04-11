@@ -3,21 +3,23 @@ title: Home
 slug: /
 sections:
   - title: ''
-    colors: bg-light-fg-dark
+    colors: bg-dark-fg-light
     styles:
       self:
         padding:
-          - pt-2
+          - pt-3
           - pl-2
-          - pb-2
+          - pb-3
           - pr-2
         margin:
           - mt-0
+          - mr-0
+          - ml-0
     type: DividerSection
   - type: GenericSection
     title:
       text: Time to connect and elevate
-      color: text-light
+      color: text-primary
       type: TitleBlock
     subtitle: 'Welcome to the beginning '
     text: |+
@@ -44,7 +46,7 @@ sections:
         type: Link
     media:
       url: /images/wou.jpg
-      altText: Unblock your team boost your time to production preview
+      altText: ''
       elementId: ''
       type: ImageBlock
       styles:
@@ -56,6 +58,7 @@ sections:
           margin:
             - mt-0
             - mb-0
+          borderWidth: 0
     badge:
       label: Wonder of you
       color: text-light
@@ -67,10 +70,10 @@ sections:
         alignItems: center
         flexDirection: row
         padding:
-          - pt-16
-          - pl-16
-          - pb-16
-          - pr-16
+          - pt-1
+          - pl-1
+          - pb-1
+          - pr-1
     backgroundImage:
       type: BackgroundImage
       altText: altText of the image
@@ -78,9 +81,83 @@ sections:
       backgroundPosition: center
       backgroundRepeat: no-repeat
       opacity: 100
+  - type: FeaturedPostsSection
+    title:
+      type: TitleBlock
+      text: Recent Wonders
+      color: text-dark
+      styles:
+        self:
+          textAlign: center
+          fontWeight: 700
+    posts:
+      - content/pages/blog/life-of-our-development-team.md
+      - content/pages/blog/surround-yourself-with-right-people.md
+      - content/pages/blog/top-twenty-ways-to-save-time.md
+    showThumbnail: true
+    showExcerpt: true
+    showDate: true
+    showAuthor: true
+    actions: []
+    elementId: ''
+    variant: three-col-grid
+    colors: bg-light-fg-dark
+    hoverEffect: move-up
+    styles:
+      self:
+        padding:
+          - pt-16
+          - pl-16
+          - pb-16
+          - pr-16
+        justifyContent: center
+      subtitle:
+        fontStyle: italic
+        fontWeight: 500
+        textAlign: center
+    subtitle: Blogs available weekly on many topics by certified WOU™ Authors
+  - posts:
+      - content/pages/blog/case-study-1.md
+      - content/pages/blog/case-study-2.md
+      - content/pages/blog/case-study-3.md
+    showThumbnail: true
+    showDate: false
+    showAuthor: true
+    variant: three-col-grid
+    colors: bg-light-fg-dark
+    styles:
+      self:
+        padding:
+          - pt-16
+          - pl-16
+          - pb-16
+          - pr-16
+        justifyContent: center
+      subtitle:
+        fontStyle: italic
+        fontWeight: 500
+        textAlign: center
+    type: FeaturedPostsSection
+    hoverEffect: thin-underline
+    subtitle: ''
+    backgroundImage:
+      type: BackgroundImage
+      altText: altText of the image
+      backgroundSize: auto
+      backgroundPosition: center
+      backgroundRepeat: no-repeat
+      opacity: 100
+    title:
+      type: TitleBlock
+      text: What's New
+      color: text-dark
+      styles:
+        self:
+          textAlign: center
+          fontWeight: 700
   - type: FeaturedItemsSection
     title:
-      text: Key Benefits
+      text: ''
       color: text-dark
       styles:
         self:
@@ -177,7 +254,7 @@ sections:
         type: Button
     badge:
       label: This is a badge
-      color: text-primary
+      color: text-dark
       styles:
         self:
           textAlign: center
@@ -226,25 +303,6 @@ sections:
       subtitle:
         textAlign: center
     type: ImageGallerySection
-  - posts:
-      - content/pages/blog/case-study-1.md
-      - content/pages/blog/case-study-2.md
-      - content/pages/blog/case-study-3.md
-    showThumbnail: true
-    showDate: true
-    showAuthor: true
-    variant: three-col-grid
-    colors: bg-light-fg-dark
-    styles:
-      self:
-        padding:
-          - pt-16
-          - pl-16
-          - pb-16
-          - pr-16
-        justifyContent: center
-    type: FeaturedPostsSection
-    hoverEffect: move-up
   - title: Divider
     colors: bg-light-fg-dark
     styles:
