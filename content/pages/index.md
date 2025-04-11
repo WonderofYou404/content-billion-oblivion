@@ -64,7 +64,7 @@ sections:
           - pt-36
           - pl-36
           - pb-36
-          - pr-36
+          - pr-56
         margin:
           - mt-10
           - ml-20
