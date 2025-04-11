@@ -132,6 +132,7 @@ sections:
       type: Badge
       label: Blogs available weekly on many subject by certified WOU™ Authors
       color: text-primary
+    subtitle: Blogs available weekly on many subject by certified WOU™ Authors
   - type: FeaturedItemsSection
     title:
       text: ''
