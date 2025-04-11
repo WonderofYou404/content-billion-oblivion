@@ -13,7 +13,7 @@ sections:
           - pr-2
         margin:
           - mt-0
-          - mr-5
+          - mr-0
           - ml-0
     type: DividerSection
   - type: GenericSection
