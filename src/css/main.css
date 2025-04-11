@@ -347,6 +347,12 @@
   white-space: nowrap;
   text-shadow: 0 0 10px rgba(255, 255, 255, 0.6); /* soft white glow */
 }
+    @media screen and (max-width: 768px) {
+      .sb-section {
+        padding-left: 1rem;
+        padding-right: 1rem;
+  }
+}
 
 
 
