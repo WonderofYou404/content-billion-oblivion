@@ -344,6 +344,29 @@ img[src="/images/woulogo2.png"][alt="Logo dark"] {
 }
     #home-header p[data-sb-field-path=".subtitle"] {
   font-family: 'LeagueGothic', sans-serif;
+  font-size: 1.25rem; /* or 36px */
+}
+@media screen and (max-width: 768px) {
+  #home-header span[data-sb-field-path=".label"] {
+    display: block;
+    text-align: center;
+    white-space: pre-line;
+  }
+
+  #home-header span[data-sb-field-path=".label"]::after {
+    content: "Wonder\\Aof\\AYou";
+    font-family: 'Glass', sans-serif;
+    font-size: 32px;
+    line-height: 1.2;
+    white-space: pre-line;
+    display: block;
+  }
+
+  /* Hide the original text on mobile */
+  #home-header span[data-sb-field-path=".label"]::before,
+  #home-header span[data-sb-field-path=".label"] > * {
+    display: none !important;
+  }
 }
 
 
