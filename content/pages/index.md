@@ -131,7 +131,7 @@ sections:
         fontWeight: 500
         textAlign: center
     type: FeaturedPostsSection
-    hoverEffect: move-up
+    hoverEffect: thin-underline
     subtitle: Blogs available weekly on many topics by certified WOU™ Authors
     backgroundImage:
       type: BackgroundImage
