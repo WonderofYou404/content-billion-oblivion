@@ -28,7 +28,7 @@ sections:
     showDate: false
     showAuthor: false
     actions: []
-    elementId: ''
+    elementId: aboutme-header
     variant: small-list
     colors: bg-dark-fg-light
     hoverEffect: shadow-plus-move-up
