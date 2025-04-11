@@ -113,6 +113,7 @@ sections:
       subtitle:
         fontStyle: italic
         fontWeight: 500
+        textAlign: center
     subtitle: Blogs available weekly on many topics by certified WOU™ Authors
   - posts:
       - content/pages/blog/case-study-1.md
