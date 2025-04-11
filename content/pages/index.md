@@ -63,7 +63,7 @@ sections:
       label: Wonder of you
       color: text-light
       type: Badge
-    elementId: ''
+    elementId: home-header
     colors: bg-dark-fg-light
     styles:
       self:
