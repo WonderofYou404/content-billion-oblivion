@@ -69,10 +69,10 @@ sections:
         alignItems: center
         flexDirection: row
         padding:
-          - pt-4
-          - pl-4
-          - pb-4
-          - pr-4
+          - pt-1
+          - pl-1
+          - pb-1
+          - pr-1
     backgroundImage:
       type: BackgroundImage
       altText: altText of the image
