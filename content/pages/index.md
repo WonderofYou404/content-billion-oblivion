@@ -109,6 +109,26 @@ sections:
           - pb-16
           - pr-16
         justifyContent: center
+  - posts:
+      - content/pages/blog/case-study-1.md
+      - content/pages/blog/case-study-2.md
+      - content/pages/blog/case-study-3.md
+    showThumbnail: true
+    showDate: false
+    showAuthor: true
+    variant: three-col-grid
+    colors: bg-light-fg-dark
+    styles:
+      self:
+        padding:
+          - pt-16
+          - pl-16
+          - pb-16
+          - pr-16
+        justifyContent: center
+    type: FeaturedPostsSection
+    hoverEffect: move-up
+    subtitle: Blogs available weekly on many subject by certified WOU™ Authors
   - type: FeaturedItemsSection
     title:
       text: ''
@@ -226,26 +246,6 @@ sections:
         justifyContent: center
       subtitle:
         textAlign: center
-  - posts:
-      - content/pages/blog/case-study-1.md
-      - content/pages/blog/case-study-2.md
-      - content/pages/blog/case-study-3.md
-    showThumbnail: true
-    showDate: false
-    showAuthor: true
-    variant: three-col-grid
-    colors: bg-light-fg-dark
-    styles:
-      self:
-        padding:
-          - pt-16
-          - pl-16
-          - pb-16
-          - pr-16
-        justifyContent: center
-    type: FeaturedPostsSection
-    hoverEffect: move-up
-    subtitle: Blogs available weekly on many subject by certified WOU™ Authors
   - subtitle: Award winning enterprises trust us
     images:
       - url: /images/empathy-logo.svg
