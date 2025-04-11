@@ -68,7 +68,7 @@ sections:
         margin:
           - mt-0
           - ml-0
-          - mb-10
+          - mb-0
           - mr-7
         justifyContent: center
       subtitle:
