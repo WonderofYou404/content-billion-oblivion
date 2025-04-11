@@ -128,6 +128,10 @@ sections:
         justifyContent: center
     type: FeaturedPostsSection
     hoverEffect: move-up
+    badge:
+      type: Badge
+      label: Blogs available weekly on many subject by certified WOU™ Authors
+      color: text-primary
   - type: FeaturedItemsSection
     title:
       text: ''
