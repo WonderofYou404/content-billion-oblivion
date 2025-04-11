@@ -114,7 +114,7 @@ sections:
       - content/pages/blog/case-study-2.md
       - content/pages/blog/case-study-3.md
     showThumbnail: true
-    showDate: true
+    showDate: false
     showAuthor: true
     variant: three-col-grid
     colors: bg-light-fg-dark
