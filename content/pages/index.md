@@ -21,6 +21,9 @@ sections:
       text: Time to connect and elevate
       color: text-primary
       type: TitleBlock
+      styles:
+        self:
+          textAlign: left
     subtitle: 'Welcome to the beginning '
     text: |+
       > Create your own reality
