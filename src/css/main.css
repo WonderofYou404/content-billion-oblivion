@@ -338,5 +338,9 @@
   width: 100px;
   height: auto;
 }
+    span[data-sb-field-path=".label"] {
+  font-family: 'Glass', sans-serif;
+  font-size: 44px; /* optional — adjust size if needed */
+}
 
 
