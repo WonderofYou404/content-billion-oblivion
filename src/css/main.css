@@ -407,6 +407,24 @@ img[src="/images/woulogo2.png"][alt="Logo dark"] {
     font-size: 1.5rem;
   }
 }
+@media screen and (max-width: 768px) {
+  #home-header span[data-sb-field-path=".label"] {
+    font-size: 0 !important;
+    position: relative;
+    display: block;
+  }
+
+  #home-header span[data-sb-field-path=".label"]::after {
+    content: "Wonder\Aof\AYou";
+    font-family: 'Glass', sans-serif;
+    font-size: 32px;
+    white-space: pre-line;
+    line-height: 1.2;
+    display: block;
+    text-align: center;
+  }
+}
+
 
 
 
