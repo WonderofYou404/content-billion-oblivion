@@ -151,7 +151,7 @@ sections:
       color: text-dark
       styles:
         self:
-          textAlign: right
+          textAlign: justify
           fontWeight: 700
   - type: FeaturedItemsSection
     title:
