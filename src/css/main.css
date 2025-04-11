@@ -350,8 +350,9 @@ img[src="/images/woulogo2.png"][alt="Logo dark"] {
     display: block;
     text-align: center;
     white-space: pre-line;
-    font-size: 0; /* Hide original text size */
+    font-size: 0;
     position: relative;
+    padding: 1rem;
   }
 
   #home-header span[data-sb-field-path=".label"]::after {
@@ -361,8 +362,10 @@ img[src="/images/woulogo2.png"][alt="Logo dark"] {
     line-height: 1.2;
     white-space: pre-line;
     display: block;
+    text-align: center;
   }
 }
+
 .responsive-font {
   font-size: 1.25rem; /* Mobile: ~20px */
 }
