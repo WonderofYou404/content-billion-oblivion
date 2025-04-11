@@ -36,7 +36,8 @@
             "icon": "chevronRight",
             "iconPosition": "right",
             "style": "secondary",
-            "type": "Link"
+            "type": "Link",
+            "elementId": "header-aboutme"
         },
         {
             "type": "SubNav",
