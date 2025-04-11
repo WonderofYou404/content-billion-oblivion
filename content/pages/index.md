@@ -10,7 +10,7 @@ sections:
           - pt-2
           - pl-2
           - pb-2
-          - pr-7
+          - pr-2
     type: DividerSection
   - type: GenericSection
     title:
