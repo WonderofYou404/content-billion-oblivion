@@ -44,21 +44,6 @@ sections:
         style: primary
         elementId: home-learn
         type: Link
-    media:
-      url: /images/wou.jpg
-      altText: ''
-      elementId: home-image
-      type: ImageBlock
-      styles:
-        self:
-          padding:
-            - pb-0
-            - pt-0
-          borderRadius: none
-          margin:
-            - mt-0
-            - mb-0
-          borderWidth: 0
     badge:
       label: Wonder of you
       color: text-light
