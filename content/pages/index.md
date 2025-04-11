@@ -80,6 +80,40 @@ sections:
       backgroundPosition: center
       backgroundRepeat: no-repeat
       opacity: 100
+  - type: FeaturedPostsSection
+    title:
+      type: TitleBlock
+      text: Recent Wonders
+      color: text-dark
+      styles:
+        self:
+          textAlign: center
+          fontWeight: 700
+    posts:
+      - content/pages/blog/life-of-our-development-team.md
+      - content/pages/blog/surround-yourself-with-right-people.md
+      - content/pages/blog/top-twenty-ways-to-save-time.md
+    showThumbnail: true
+    showExcerpt: true
+    showDate: true
+    showAuthor: true
+    actions: []
+    elementId: ''
+    variant: three-col-grid
+    colors: bg-light-fg-dark
+    hoverEffect: move-up
+    styles:
+      self:
+        padding:
+          - pt-16
+          - pl-16
+          - pb-16
+          - pr-16
+        justifyContent: center
+      subtitle:
+        fontStyle: italic
+        fontWeight: 500
+    subtitle: Blogs available weekly on many topics by certified WOU™ Authors
   - posts:
       - content/pages/blog/case-study-1.md
       - content/pages/blog/case-study-2.md
@@ -119,40 +153,6 @@ sections:
         self:
           textAlign: center
           fontWeight: 700
-  - type: FeaturedPostsSection
-    title:
-      type: TitleBlock
-      text: Recent Wonders
-      color: text-dark
-      styles:
-        self:
-          textAlign: center
-          fontWeight: 700
-    posts:
-      - content/pages/blog/life-of-our-development-team.md
-      - content/pages/blog/surround-yourself-with-right-people.md
-      - content/pages/blog/top-twenty-ways-to-save-time.md
-    showThumbnail: true
-    showExcerpt: true
-    showDate: true
-    showAuthor: true
-    actions: []
-    elementId: ''
-    variant: three-col-grid
-    colors: bg-light-fg-dark
-    hoverEffect: move-up
-    styles:
-      self:
-        padding:
-          - pt-16
-          - pl-16
-          - pb-16
-          - pr-16
-        justifyContent: center
-      subtitle:
-        fontStyle: italic
-        fontWeight: 500
-    subtitle: Blogs available weekly on many topics by certified WOU™ Authors
   - type: FeaturedItemsSection
     title:
       text: ''
