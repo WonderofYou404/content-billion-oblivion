@@ -89,16 +89,5 @@
     ],
     "variant": "logo-left-primary-nav-centered",
     "colors": "bg-light-fg-dark",
-    "type": "Header",
-    "logo": {
-        "type": "ImageBlock",
-        "url": "/images/wou final-01.png",
-        "altText": "Image alt text placeholder",
-        "elementId": "",
-        "styles": {
-            "self": {
-                "borderRadius": "medium"
-            }
-        }
-    }
+    "type": "Header"
 }
