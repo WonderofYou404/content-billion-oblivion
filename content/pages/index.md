@@ -133,6 +133,13 @@ sections:
     type: FeaturedPostsSection
     hoverEffect: move-up
     subtitle: Blogs available weekly on many topics by certified WOU™ Authors
+    backgroundImage:
+      type: BackgroundImage
+      altText: altText of the image
+      backgroundSize: auto
+      backgroundPosition: center
+      backgroundRepeat: no-repeat
+      opacity: 100
   - type: FeaturedItemsSection
     title:
       text: ''
