@@ -44,21 +44,6 @@ sections:
         style: primary
         elementId: home-learn
         type: Link
-    media:
-      url: /images/wou.jpg
-      altText: ''
-      elementId: home-image
-      type: ImageBlock
-      styles:
-        self:
-          padding:
-            - pb-0
-            - pt-0
-          borderRadius: none
-          margin:
-            - mt-0
-            - mb-0
-          borderWidth: 0
     badge:
       label: Wonder of you
       color: text-light
@@ -70,10 +55,10 @@ sections:
         alignItems: center
         flexDirection: row
         padding:
-          - pt-1
-          - pl-1
-          - pb-1
-          - pr-1
+          - pt-44
+          - pl-44
+          - pb-44
+          - pr-44
     backgroundImage:
       type: BackgroundImage
       altText: altText of the image
@@ -81,6 +66,7 @@ sections:
       backgroundPosition: center
       backgroundRepeat: no-repeat
       opacity: 100
+      url: /images/wou.jpg
   - type: FeaturedPostsSection
     title:
       type: TitleBlock
