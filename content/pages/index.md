@@ -115,6 +115,9 @@ sections:
       type: TitleBlock
       text: Recent Wonders
       color: text-dark
+      styles:
+        self:
+          fontStyle: italic
   - type: FeaturedPostsSection
     title:
       type: TitleBlock
