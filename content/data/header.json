@@ -29,7 +29,7 @@
         {
             "label": "About Me",
             "altText": "About Me page",
-            "url": "/aboutme",
+            "url": "/AboutMe",
             "icon": "chevronRight",
             "iconPosition": "right",
             "style": "secondary",
