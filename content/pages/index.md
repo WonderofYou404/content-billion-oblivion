@@ -33,7 +33,7 @@ sections:
         icon: arrowRight
         iconPosition: right
         style: secondary
-        elementId: ''
+        elementId: home-button
         type: Button
       - label: Learn More
         altText: ''
