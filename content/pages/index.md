@@ -129,6 +129,7 @@ sections:
       subtitle:
         fontStyle: italic
         fontWeight: 400
+        textAlign: center
     type: FeaturedPostsSection
     hoverEffect: move-up
     subtitle: Blogs available weekly on many topics by certified WOU™ Authors
