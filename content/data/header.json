@@ -26,7 +26,8 @@
             "icon": "arrowRight",
             "iconPosition": "right",
             "style": "secondary",
-            "type": "Link"
+            "type": "Link",
+            "elementId": "header-careers"
         },
         {
             "label": "About Me",
