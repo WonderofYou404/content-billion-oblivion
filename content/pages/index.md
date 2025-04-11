@@ -46,7 +46,7 @@ sections:
         type: Link
     media:
       url: /images/wou.jpg
-      altText: Unblock your team boost your time to production preview
+      altText: ''
       elementId: ''
       type: ImageBlock
       styles:
