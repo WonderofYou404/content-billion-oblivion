@@ -25,11 +25,7 @@ sections:
         self:
           textAlign: center
     subtitle: 'Welcome to the beginning '
-    text: |+
-      ```
-      Create your own reality
-      ```
-
+    text: ''
     actions:
       - label: Get started
         altText: ''
