@@ -81,6 +81,7 @@ sections:
       backgroundPosition: center
       backgroundRepeat: no-repeat
       opacity: 100
+      url: /images/wou.jpg
   - type: FeaturedPostsSection
     title:
       type: TitleBlock
