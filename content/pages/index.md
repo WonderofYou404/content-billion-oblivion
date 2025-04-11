@@ -113,7 +113,7 @@ sections:
       opacity: 100
     title:
       type: TitleBlock
-      text: This Is A Big Headline
+      text: Blogs available weekly on many topics by certified WOU™ Authors
       color: text-dark
   - type: FeaturedPostsSection
     title:
