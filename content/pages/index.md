@@ -122,7 +122,7 @@ sections:
   - type: FeaturedPostsSection
     title:
       type: TitleBlock
-      text: Recent Thoughts
+      text: Recent Wonders
       color: text-dark
       styles:
         self:
