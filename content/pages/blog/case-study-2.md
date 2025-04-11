@@ -84,7 +84,7 @@ styles:
     borderStyle: none
     borderWidth: 0
     borderRadius: none
-    flexDirection: col
+    flexDirection: row
 type: PostLayout
 ---
 
