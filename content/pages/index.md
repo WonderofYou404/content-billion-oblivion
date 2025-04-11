@@ -66,7 +66,7 @@ sections:
           - pb-20
           - pr-20
         margin:
-          - mt-10
+          - mt-0
           - ml-7
           - mb-10
           - mr-7
