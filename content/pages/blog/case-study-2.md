@@ -1,5 +1,5 @@
 ---
-title: Catch up on This Month
+title: Catch Up On This Month
 slug: case-study-2
 date: '2022-02-16'
 excerpt: >-
