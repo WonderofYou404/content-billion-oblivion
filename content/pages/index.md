@@ -19,7 +19,7 @@ sections:
   - type: GenericSection
     title:
       text: Time to connect and elevate
-      color: text-neutral
+      color: text-primary
       type: TitleBlock
     subtitle: 'Welcome to the beginning '
     text: |+
