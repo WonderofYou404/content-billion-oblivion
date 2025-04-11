@@ -2,7 +2,7 @@
 title: Home
 slug: /
 sections:
-  - title: Divider
+  - title: ''
     colors: bg-light-fg-dark
     styles:
       self:
