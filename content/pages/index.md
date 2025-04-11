@@ -24,7 +24,7 @@ sections:
       styles:
         self:
           textAlign: center
-    subtitle: 'Welcome to the beginning '
+    subtitle: The World Is Yours
     text: ''
     actions:
       - label: Get started
