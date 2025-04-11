@@ -67,6 +67,8 @@ sections:
           - pr-64
       subtitle:
         textAlign: center
+      text:
+        textAlign: center
   - type: FeaturedPostsSection
     title:
       type: TitleBlock
