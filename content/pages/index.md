@@ -46,7 +46,7 @@ sections:
         type: Link
     badge:
       label: Wonder of you
-      color: text-light
+      color: text-primary
       type: Badge
     elementId: home-header
     colors: bg-dark-fg-light
