@@ -83,7 +83,7 @@ styles:
     borderColor: border-dark
     borderStyle: none
     borderWidth: 0
-    borderRadius: x-small
+    borderRadius: none
     flexDirection: col
 type: PostLayout
 ---
