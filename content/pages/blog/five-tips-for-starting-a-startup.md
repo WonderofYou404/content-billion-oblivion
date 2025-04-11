@@ -9,7 +9,7 @@ excerpt: >-
   genuine, sustainable path. After years of research, I’ve boiled it down to a
   simple truth: the key to creating a scalable income is creation.
 featuredImage:
-  url: /images/W O U-22-01.png
+  url: /images/W O U-01.png
   altText: Thumbnail
   type: ImageBlock
   styles:
