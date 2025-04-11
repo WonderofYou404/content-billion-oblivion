@@ -47,7 +47,7 @@ sections:
     media:
       url: /images/wou.jpg
       altText: ''
-      elementId: ''
+      elementId: home-image
       type: ImageBlock
       styles:
         self:
