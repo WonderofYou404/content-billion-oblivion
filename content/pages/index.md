@@ -62,7 +62,7 @@ sections:
         flexDirection: row
         padding:
           - pt-64
-          - pl-64
+          - pl-44
           - pb-64
           - pr-64
       subtitle:
