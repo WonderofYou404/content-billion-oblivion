@@ -18,7 +18,7 @@ sections:
     type: DividerSection
   - type: GenericSection
     title:
-      text: "Time to connect\_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ \_ and elevate"
+      text: Time to connect and elevate
       color: text-primary
       type: TitleBlock
       styles:
