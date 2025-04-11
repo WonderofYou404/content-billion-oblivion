@@ -75,10 +75,10 @@ colors: bg-light-fg-dark
 styles:
   self:
     padding:
-      - pt-0
-      - pl-0
-      - pb-0
-      - pr-0
+      - pt-12
+      - pl-12
+      - pb-12
+      - pr-12
     textAlign: center
     borderColor: border-dark
     borderStyle: none
