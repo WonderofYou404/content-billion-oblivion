@@ -351,6 +351,8 @@ img[src="/images/woulogo2.png"][alt="Logo dark"] {
     display: block;
     text-align: center;
     white-space: pre-line;
+    font-size: 0; /* Hide original text size */
+    position: relative;
   }
 
   #home-header span[data-sb-field-path=".label"]::after {
@@ -361,13 +363,8 @@ img[src="/images/woulogo2.png"][alt="Logo dark"] {
     white-space: pre-line;
     display: block;
   }
-
-  /* Hide the original text on mobile */
-  #home-header span[data-sb-field-path=".label"]::before,
-  #home-header span[data-sb-field-path=".label"] > * {
-    display: none !important;
-  }
 }
+
 
 
 
