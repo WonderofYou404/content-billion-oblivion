@@ -338,7 +338,7 @@
   width: 100px;
   height: auto;
 }
-    #home-header span[data-sb-field-path=".label"] {
+    #home-header span[data-sb-field-path=".label"]:not(#home-button span):not(#home-learn span):not(.sb-component-button span) {
   font-family: 'Glass', sans-serif;
   font-size: 64px;
   padding: 0.1em 0.25em;
@@ -346,8 +346,27 @@
   white-space: nowrap;
   display: inline-block;
   white-space: nowrap;
-  text-shadow: 0 0 8px rgba(255, 255, 255, 0.6); /* soft white glow */
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.6); /* soft white glow */
 }
+    /* Default styles for desktop */
+#home-image {
+  transform: scale(0.8);
+  transform-origin: top right;
+  float: right;
+  margin-left: 2rem;
+  margin-top: 1rem;
+}
+
+/* Responsive adjustments for screens 768px wide or less */
+@media screen and (max-width: 768px) {
+  #home-image {
+    transform: scale(1);
+    float: none;
+    display: block;
+    margin: 1rem auto;
+  }
+}
+
 
 
 
