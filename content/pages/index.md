@@ -127,7 +127,7 @@ sections:
       styles:
         self:
           textAlign: center
-          fontWeight: 700
+          fontWeight: 500
     posts:
       - content/pages/blog/life-of-our-development-team.md
       - content/pages/blog/surround-yourself-with-right-people.md
