@@ -338,7 +338,7 @@
   width: 100px;
   height: auto;
 }
-    #home-header span[data-sb-field-path=".label"] {
+    #home-header span[data-sb-field-path=".label"]:not(button span) {
   font-family: 'Glass', sans-serif;
   font-size: 64px;
   padding: 0.1em 0.25em;
@@ -346,7 +346,14 @@
   white-space: nowrap;
   display: inline-block;
   white-space: nowrap;
-  text-shadow: 0 0 8px rgba(255, 255, 255, 0.6); /* soft white glow */
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.6); /* soft white glow */
+}
+    #home-image {
+  width: 100%;
+  max-width: 400px;
+  float: right;
+  margin-left: 2rem;
+  margin-top: 1rem;
 }
 
 
