@@ -1,16 +1,4 @@
 {
-    "logo": {
-        "altText": "Logo dark",
-        "styles": {
-            "self": {
-                "margin": [
-                    "mr-3"
-                ]
-            }
-        },
-        "type": "ImageBlock",
-        "url": "/images/W O U-22-01.png"
-    },
     "primaryLinks": [
         {
             "label": "Pricing",
@@ -99,7 +87,22 @@
             "type": "Button"
         }
     ],
-    "variant": "logo-left-primary-nav-centered",
-    "colors": "bg-light-fg-dark",
-    "type": "Header"
+    "variant": "logo-centered-primary-nav-centered",
+    "colors": "bg-neutral-fg-dark",
+    "type": "Header",
+    "logo": {
+        "type": "ImageBlock",
+        "url": "/images/wou finaltiny-01.png",
+        "altText": "Image alt text placeholder",
+        "elementId": "",
+        "styles": {
+            "self": {
+                "borderRadius": "medium",
+                "padding": [
+                    "pl-28",
+                    "pr-14"
+                ]
+            }
+        }
+    }
 }
