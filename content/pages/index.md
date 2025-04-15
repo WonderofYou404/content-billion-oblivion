@@ -84,6 +84,7 @@ sections:
       backgroundPosition: center
       backgroundRepeat: no-repeat
       opacity: 100
+      url: /images/wouhome-header-01.webp
   - type: FeaturedPostsSection
     title:
       type: TitleBlock
