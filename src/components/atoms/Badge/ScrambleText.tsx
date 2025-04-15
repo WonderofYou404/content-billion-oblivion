@@ -8,7 +8,11 @@ interface ScrambleTextProps {
 const ScrambleText: React.FC<ScrambleTextProps> = ({ words, interval = 3000 }) => {
   const [display, setDisplay] = useState(words[0]);
   const [index, setIndex] = useState(0);
-
+return (
+  <span className="tracking-wider uppercase font-bold text-white text-shadow-glow">
+    {display}
+  </span>
+);
   useEffect(() => {
     const scramble = (word: string) => {
       const chars = '!<>-_\\/[]{}—=+*^?#________';
@@ -34,8 +38,3 @@ const ScrambleText: React.FC<ScrambleTextProps> = ({ words, interval = 3000 }) =
 };
 
 export default ScrambleText;
-return (
-  <span className="tracking-wider uppercase font-bold text-white text-shadow-glow">
-    {display}
-  </span>
-);
