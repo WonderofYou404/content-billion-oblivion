@@ -26,9 +26,9 @@ sections:
           textAlign: center
     subtitle: >-
       Wonder Of You is a living portfolio of skills I’ve learned, tested, and
-      now offer—ranging from graphic design to computer classes, consulting, and
-      creative strategy. It’s a bridge between what I’ve built and what you’re
-      ready to create.
+      now offer; ranging from graphic design to computer classes, consulting,
+      and creative strategy. <br>  It’s a bridge between what I’ve built and
+      what you’re ready to create.   
     text: ''
     actions:
       - label: Get started
