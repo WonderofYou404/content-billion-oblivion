@@ -76,6 +76,7 @@ sections:
       subtitle:
         textAlign: center
         fontStyle: italic
+        fontWeight: 400
       text:
         textAlign: center
   - type: FeaturedPostsSection
