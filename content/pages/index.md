@@ -25,9 +25,9 @@ sections:
         self:
           textAlign: center
     subtitle: >-
-      _Wonder Of You_ is a living portfolio of skills I’ve learned, tested, and
+      Wonder Of You is a living portfolio of skills I’ve learned, tested, and
       now offer; ranging from graphic design to computer classes, consulting,
-      and creative strategy.<br>It’s a bridge between what I’ve built and what
+      and creative strategy.   It’s a bridge between what I’ve built and what
       you’re ready to create.   
     text: ''
     actions:
@@ -84,6 +84,7 @@ sections:
       backgroundPosition: center
       backgroundRepeat: no-repeat
       opacity: 100
+      url: /images/wouhome-header-01.webp
   - type: FeaturedPostsSection
     title:
       type: TitleBlock
