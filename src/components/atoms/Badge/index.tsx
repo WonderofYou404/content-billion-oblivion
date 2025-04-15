@@ -1,5 +1,6 @@
 import * as React from 'react';
 import classNames from 'classnames';
+import ScrambleText from './ScrambleText';
 
 import { mapStylesToClassNames as mapStyles } from '../../../utils/map-styles-to-class-names';
 
@@ -22,9 +23,7 @@ export default function Badge(props) {
             )}
             data-sb-field-path={fieldPath}
         >
-            <span className="tracking-wider uppercase" {...(fieldPath && { 'data-sb-field-path': '.label' })}>
-                {label}
-            </span>
+            <ScrambleText words={['Wonder of You', 'Creative Direction', 'Graphic Design Services', 'Business Consultation', 'Investments', 'Social Media Building' ]} />
         </div>
     );
 }
