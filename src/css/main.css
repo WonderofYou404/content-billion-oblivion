@@ -409,7 +409,7 @@ header, header * {
 }
 @media (min-width: 768px) {
   .home-header {
-    font-size: 4.5rem; /* adjust as needed */
+    font-size: 8.5rem; /* adjust as needed */
   }
   .home-header * {
     font-size: inherit;
