@@ -1,46 +1,39 @@
-import { useEffect, useState } from 'react';
+import React, { useState, useEffect } from 'react';
 
-const ScrambleText = ({ words, speed = 50, pause = 2000 }) => {
-  const [display, setDisplay] = useState('');
+interface ScrambleTextProps {
+  words: string[];
+  interval?: number;
+}
+
+const ScrambleText: React.FC<ScrambleTextProps> = ({ words, interval = 3000 }) => {
+  const [display, setDisplay] = useState(words[0]);
   const [index, setIndex] = useState(0);
-  const chars = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890!@#$%^&*';
 
   useEffect(() => {
-    let isMounted = true;
-
-    const scramble = (target: string) => {
-      let frame = 0;
-      const interval = setInterval(() => {
-        const scrambled = target
-          .split('')
-          .map((char, i) => {
-            if (frame >= i) return char;
-            return chars[Math.floor(Math.random() * chars.length)];
-          })
-          .join('');
-        if (isMounted) setDisplay(scrambled);
-
-        frame++;
-        if (frame > target.length) {
-          clearInterval(interval);
-          setTimeout(() => {
-            if (isMounted) {
-              setIndex((i) => (i + 1) % words.length);
-            }
-          }, pause);
-        }
-      }, speed);
+    const scramble = (word: string) => {
+      const chars = '!<>-_\\/[]{}—=+*^?#________';
+      let scrambled = '';
+      for (let i = 0; i < word.length; i++) {
+        scrambled += chars[Math.floor(Math.random() * chars.length)];
+      }
+      return scrambled;
     };
 
-    scramble(words[index]);
+    const timeout = setTimeout(() => {
+      setDisplay(scramble(words[index]));
+      setTimeout(() => {
+        setDisplay(words[index]);
+        setIndex((prevIndex) => (prevIndex + 1) % words.length);
+      }, 500);
+    }, interval);
 
-    return () => {
-      isMounted = false;
-    };
-  }, [index]);
+    return () => clearTimeout(timeout);
+  }, [index, words, interval]);
 
   return (
-    <span className="scramble-text text-3xl font-bold">{display}</span>
+    <span className="tracking-wider uppercase text-light text-center">
+      {display}
+    </span>
   );
 };
 
