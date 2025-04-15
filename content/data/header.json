@@ -93,22 +93,5 @@
     ],
     "variant": "logo-centered-primary-nav-centered",
     "colors": "bg-neutral-fg-dark",
-    "type": "Header",
-    "logo": {
-        "type": "ImageBlock",
-        "altText": "Image alt text placeholder",
-        "elementId": "",
-        "styles": {
-            "self": {
-                "borderRadius": "medium",
-                "padding": [
-                    "pl-0",
-                    "pr-0",
-                    "pt-0",
-                    "pb-0"
-                ]
-            }
-        },
-        "url": "/images/WOUFinal.svg"
-    }
+    "type": "Header"
 }
