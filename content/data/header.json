@@ -96,7 +96,6 @@
     "type": "Header",
     "logo": {
         "type": "ImageBlock",
-        "url": "/images/WOUFinal.svg",
         "altText": "Image alt text placeholder",
         "elementId": "",
         "styles": {
@@ -109,6 +108,7 @@
                     "pb-0"
                 ]
             }
-        }
+        },
+        "url": "/images/WOUFinal.svg"
     }
 }

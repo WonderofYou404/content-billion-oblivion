@@ -77,14 +77,6 @@ sections:
         textAlign: center
       text:
         textAlign: center
-    backgroundImage:
-      type: BackgroundImage
-      altText: altText of the image
-      backgroundSize: auto
-      backgroundPosition: center
-      backgroundRepeat: no-repeat
-      opacity: 100
-      url: /images/wouhome-header-01.webp
   - type: FeaturedPostsSection
     title:
       type: TitleBlock
