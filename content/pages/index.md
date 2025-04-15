@@ -18,7 +18,11 @@ sections:
     type: DividerSection
   - type: GenericSection
     title:
-      text: Time to connect and elevate
+      text: >-
+        Wonder Of You is a living portfolio of skills I’ve learned, tested, and
+        now offer; ranging from graphic design to computer classes, consulting,
+        and creative strategy. It’s a bridge between what I’ve built and what
+        you’re ready to create.
       color: text-primary
       type: TitleBlock
       styles:
