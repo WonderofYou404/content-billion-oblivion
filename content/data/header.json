@@ -96,7 +96,6 @@
     "type": "Header",
     "logo": {
         "type": "ImageBlock",
-        "url": "/images/WOU Final-01.svg",
         "altText": "Image alt text placeholder",
         "elementId": "",
         "styles": {
