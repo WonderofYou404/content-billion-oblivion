@@ -75,6 +75,7 @@ sections:
         justifyContent: center
       subtitle:
         textAlign: center
+        fontStyle: italic
       text:
         textAlign: center
   - type: FeaturedPostsSection
