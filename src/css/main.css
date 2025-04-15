@@ -420,4 +420,8 @@ header, header * {
     padding: 1rem; /* adjust as needed */
   }
 }
+p.text-lg[data-sb-field-path=".subtitle"] {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 200;
+}
 
