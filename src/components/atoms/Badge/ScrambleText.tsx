@@ -34,3 +34,8 @@ const ScrambleText: React.FC<ScrambleTextProps> = ({ words, interval = 3000 }) =
 };
 
 export default ScrambleText;
+return (
+  <span className="tracking-wider uppercase font-bold text-white text-shadow-glow">
+    {display}
+  </span>
+);
