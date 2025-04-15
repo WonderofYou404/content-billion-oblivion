@@ -75,7 +75,6 @@ sections:
         justifyContent: center
       subtitle:
         textAlign: center
-        fontStyle: italic
         fontWeight: 400
       text:
         textAlign: center
