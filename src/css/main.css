@@ -408,13 +408,15 @@ header, header * {
   font-family: 'Pricedown', sans-serif;
 }
 @media (min-width: 768px) {
-  .home-header {
-    font-size: 8.5rem; /* adjust as needed */
-  }
-  .home-header * {
-    font-size: inherit;
+  .home-header h1,
+  .home-header h2,
+  .home-header p,
+  .home-header span,
+  .home-header a {
+    font-size: 8.5rem;
   }
 }
+
 @media (max-width: 767px) {
   .home-header {
     padding: 1rem; /* adjust as needed */
