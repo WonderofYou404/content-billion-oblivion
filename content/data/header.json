@@ -93,5 +93,16 @@
     ],
     "variant": "logo-centered-primary-nav-centered",
     "colors": "bg-neutral-fg-dark",
-    "type": "Header"
+    "type": "Header",
+    "logo": {
+        "type": "ImageBlock",
+        "url": "/images/hero2.svg",
+        "altText": "Image alt text placeholder",
+        "elementId": "",
+        "styles": {
+            "self": {
+                "borderRadius": "medium"
+            }
+        }
+    }
 }
