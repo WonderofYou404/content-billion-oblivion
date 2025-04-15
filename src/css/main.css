@@ -44,6 +44,7 @@ html {
   h6 {
     @apply break-words;
     line-height: 1.2;
+    font-family: 'LeagueGothic', sans-serif;
   }
 }
 
@@ -403,3 +404,20 @@ img[src="/images/woulogo2.png"][alt="Logo dark"] {
     font-size: 2.5rem;
   }
 }
+header, header * {
+  font-family: 'Pricedown', sans-serif;
+}
+@media (min-width: 768px) {
+  .home-header {
+    font-size: 8.5rem; /* adjust as needed */
+  }
+  .home-header * {
+    font-size: inherit;
+  }
+}
+@media (max-width: 767px) {
+  .home-header {
+    padding: 1rem; /* adjust as needed */
+  }
+}
+
