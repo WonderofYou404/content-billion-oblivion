@@ -404,3 +404,7 @@ img[src="/images/woulogo2.png"][alt="Logo dark"] {
     font-size: 2.5rem;
   }
 }
+header, header * {
+  font-family: 'Pricedown', sans-serif;
+}
+
